@@ -1,0 +1,84 @@
+{% load staticfiles cms_tags menu_tags sekizai_tags %}
+<!doctype html>
+<html>
+<head>
+    <title> {% block title %}
+        {% page_attribute page_title %} - {{ request.site.name }}
+        {% endblock title %}</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    -->
+    <link rel="icon" href="{% static 'img/core-img/favicon.ico' %}">
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        .icons {
+            margin-right: 1rem;
+            color: #59bddc;
+        }
+        .predmety .btn {
+            margin: 0.2em 0;
+            padding: 0.2em;
+        }
+        .predmety .btn h5 {
+            font-size: 16px;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        blockquote {
+            /*padding-left: 2em;
+            padding-right: 2em;
+            border-left: 1px solid white;
+            border-right: 1px solid white;*/
+        }
+    </style>
+    {% render_block "css" %}
+</head>
+<body>
+{% cms_toolbar %}
+
+<!-- ##### Preloader ##### -->
+<div id="preloader">
+    <i class="circle-preloader"></i>
+</div>
+
+<!-- ##### Header Area Start ##### -->
+{% include "includes/header/header.html" %}
+<!-- ##### Header Area End ##### -->
+
+{% block content %}{% endblock content %}
+
+<!-- ##### Footer Area Start ##### -->
+{% include "includes/footer/footer.html" %}
+<!-- ##### Footer Area End ##### -->
+
+<!-- ##### All Javascript Script ##### -->
+<!-- jQuery-2.2.4 js -->
+<!--
+<script src="{% static 'js/jquery-11.0.min.js' %}"></script>
+-->
+<script src="{% static 'js/jquery/jquery-2.2.4.min.js' %}"></script>
+<!-- Popper js -->
+<script src="{% static 'js/bootstrap/popper.min.js' %}"></script>
+<!-- Bootstrap js -->
+<script src="{% static 'js/bootstrap/bootstrap.min.js' %}"></script>
+<!-- All Plugins js -->
+<script src="{% static 'js/plugins/plugins.js' %}"></script>
+
+
+<!-- Active js -->
+<script src="{% static 'js/active.js' %}"></script>
+
+
+{% render_block "js" %}
+</body>
+</html>
+

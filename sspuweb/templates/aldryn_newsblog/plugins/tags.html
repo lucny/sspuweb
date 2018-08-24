@@ -1,0 +1,20 @@
+{% load i18n apphooks_config_tags %}
+<div class="wow fadeInUp" data-wow-delay="300ms">
+<h5 class="text-uppercase p-2 mt-0 text-white bg-secondary">Štítky</h5>
+<div class="blog-post-tags mb-30">
+    <ul>
+        <!--
+        <li {% if not newsblog_tag %} class="active"{% endif %}>
+        <a href="{% namespace_url 'article-list' namespace=instance.app_config.namespace default='' %}">
+        {% trans "All" %}</a></li>
+        -->
+        {% for tag in tags %}
+        <li {% if newsblog_tag.id == tag.id %} class="active"{% endif %}>
+        <a href="{% namespace_url 'article-list-by-tag' tag.slug namespace=instance.app_config.namespace default='' %}">
+        {{ tag.name }} <span class="badge badge-light pt-1 text-secondary">{{ tag.article_count }}</span>&nbsp;&nbsp;
+        </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>

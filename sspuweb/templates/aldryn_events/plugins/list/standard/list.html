@@ -1,0 +1,22 @@
+{% load i18n %}
+<div class="wow fadeInUp" data-wow-delay="300ms">
+<h5 class="text-uppercase bg-light p-2 mt-0">Přehled akcí</h5>
+{% if plugin_configuration_error %}
+    {% if request.user.is_staff or request.user.is_superuser %}
+        <p>{{ plugin_configuration_error }}</p>
+    {% endif %}
+{% else %}
+<div class="blog-post-categories mb-30">
+    <ul>
+        {% for event in events %}
+            <li>
+                <a href="{{ event.get_absolute_url }}">{{ event.get_title }}</a>
+                <span>{{ event.start|date }}</span>
+            </li>
+        {% empty %}
+            <li>{% trans "No items available" %}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+</div>

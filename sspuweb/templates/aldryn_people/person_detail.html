@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load staticfiles cms_tags sekizai_tags %}
+
+{% block title %}{{ person.name }} - {{ block.super }}{% endblock %}
+
+{% block content %}
+<!-- ##### Breadcumb Area Start ##### -->
+    <div class="container p-0">
+            <div class="breadcumb-area bg-img wow fadeInUp" data-wow-delay="300ms" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
+                <div class="bradcumbContent bg-secondary">
+                    <h2>Osobní vizitka</h2>
+                </div>
+            </div>
+    </div>
+<!-- ##### Breadcumb Area End ##### -->
+
+<!-- ##### Peoples ##### -->
+<div class="top-popular-courses-area section-padding-100-70">
+        <div class="container bg-light p-3">
+            <div class="row">
+            {% include "aldryn_people/includes/person-detail.html" with person=person detail_view="true" %}
+            </div>
+        </div>
+</div>
+<!-- ##### /Peoples ##### -->
+
+{% endblock content %}

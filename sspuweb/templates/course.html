@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% load cms_tags staticfiles sekizai_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+
+{% block content %}
+<!-- ##### Homepage Carousel ##### -->
+{% include "includes/carousel/carousel.html" %}
+<!-- ##### /Homepage Carousel ##### -->
+
+<!-- ##### Breadcumb Area Start ##### -->
+<div class="course-page">
+    <div class="container course-heading wow fadeInUp" data-wow-delay="300ms">
+        <div class="row">
+            <div class="col-12 p-0">
+                {% page_attribute "page_title" as page_title %}
+                {% if page_title == "Strojírenství" %}
+                <div class="bg-strojirenstvi text-uppercase text-center pt-2 pb-2" style="border-bottom: 0px dotted #888">
+                {% elif page_title == "Informační technologie" %}
+                <div class="bg-informatika text-uppercase text-center p-3">
+                {% elif page_title == "Design hraček" %}
+                <div class="bg-hracka text-uppercase text-center p-3">
+                {% elif page_title == "Průmyslový design" %}
+                <div class="bg-design text-uppercase text-center p-3">
+                {% elif page_title == "Grafický design" %}
+                <div class="bg-grafika text-uppercase text-center p-3">
+                {% else %}
+                <div class="bg-heading text-uppercase text-center p-3">
+                {% endif %}
+                    <h2 class="text-white mt-3 mb-0">{{ page_title }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ##### Profil oboru ##### -->
+    <div class="course-profile">
+    {% if page_title == "Strojírenství" %}
+        <div class="container bg-strojirenstvi">
+    {% elif page_title == "Informační technologie" %}
+        <div class="container bg-informatika">
+    {% elif page_title == "Design hraček" %}
+        <div class="container bg-hracka">
+    {% elif page_title == "Průmyslový design" %}
+        <div class="container bg-design">
+    {% elif page_title == "Grafický design" %}
+        <div class="container bg-grafika">
+    {% else %}
+        <div class="container bg-heading">
+    {% endif %}
+            <div class="row wow fadeInUp" data-wow-delay="300ms">
+                <div class="col-12">
+                    <blockquote class="pl-3 pr-3 pt-0">
+                   {% placeholder "course-profile" %}
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### /Profil oboru ##### -->
+    <div class="container course-content">
+        {% placeholder "content" %}
+    </div>
+
+
+
+
+</div>
+
+{% addtoblock "js" %}
+            <script>
+                    $(".predmet").on("click", function() {
+                       $(".modal .modal-body").html($(this).next().html());
+                       $(".modal").modal('show');
+                    })
+
+                    $("h2").on("click",function() {
+                        $(this).parents(".row").nextAll().toggle(500);
+                    })
+
+            </script>
+{% endaddtoblock %}
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="false">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load staticfiles cms_tags sekizai_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+    <!-- ##### Breadcumb Area Start ##### -->
+<!-- ##### Breadcumb Area Start ##### -->
+    <div class="container p-0">
+            <div class="breadcumb-area bg-img wow fadeInUp" data-wow-delay="300ms" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
+                <div class="bradcumbContent bg-secondary">
+                    <h2>{% page_attribute "page_title" %}</h2>
+                </div>
+            </div>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
+    <div class="page-content section-padding-100-70 pb-0 wow fadeInUp" data-wow-delay="300ms">
+        <div class="container">
+        {% placeholder "content" %}
+        </div>
+    </div>
+
+{% endblock content %}
+
+{% addtoblock "js" %}
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM2FN6kROPWYyibdGHLGp9ol-PT7IIMlE"></script>
+    <script src="{% static 'js/google-map/map-active.js' %}"></script>
+{% endaddtoblock %}

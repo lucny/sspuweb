@@ -1,0 +1,27 @@
+{% load i18n apphooks_config_tags %}
+<div class="wow fadeInUp" data-wow-delay="300ms">
+<h5 class="text-uppercase p-2 mt-0 text-white bg-secondary">Archív článků</h5>
+<div class="blog-post-categories mb-30">
+{% regroup dates by date.year as years %}
+{% with current_year=year current_month=month %}
+<ul>
+    {% for year in years %}
+        <li>
+            <a href="{% namespace_url 'article-list-by-year' year=year.grouper namespace=instance.app_config.namespace default='' %}">{{ year.grouper }}</a>
+            <ul>
+                {% for month in year.list %}
+                    <li {% if year.grouper == current_year and month.date.month == current_month %} class="active"{% endif %}>
+                        <a href="{% namespace_url 'article-list-by-month' year=year.grouper month=month.date|date:"n" namespace=instance.app_config.namespace default='' %}">
+                                {{ month.date|date:"F" }} <span class="badge badge-light pt-1 text-secondary">{{ month.num_articles }}</span>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% empty %}
+        <li>{% trans "No items available" %}</li>
+    {% endfor %}
+</ul>
+{% endwith %}
+</div>
+</div>

@@ -1,0 +1,11 @@
+{% load i18n %}
+
+{# submission of this form will forward to "includes/search_results.html" #}
+{# this form can also be submitted using ajax and "includes/search_results.html" is returned #}
+<div class="blog-post-search-widget mb-30 wow fadeInUp" data-wow-delay="300ms">
+    <form action="{{ query_url }}" method="get">
+        <input type="search" name="q" id="search-plugin-{{ instance.pk }}" placeholder="{% trans 'Keyword' %}">
+        <input type="hidden" name="max_articles" value="{{ instance.max_articles }}">
+        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
+</div>

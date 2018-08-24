@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+
+<!-- ##### Breadcumb Area Start ##### -->
+<div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+    <div class="bradcumbContent">
+        <h2>Zprávy</h2>
+    </div>
+</div>
+<!-- ##### Breadcumb Area End ##### -->
+
+<!-- ##### Blog Area Start ##### -->
+<div class="blog-area mt-10 section-padding-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-8">
+                {% placeholder "content" %}
+            </div>
+            <div class="col-xs-12 col-md-4">
+                {% placeholder "sidebar" %}
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- ##### Blog Area End ##### -->
+
+{% endblock content %}

@@ -1,0 +1,52 @@
+{% extends "aldryn_newsblog/base.html" %}
+{% load staticfiles i18n cms_tags %}
+
+{% block content %}
+<!-- ##### Breadcumb Area Start ##### -->
+    <div class="container p-0">
+            <div class="breadcumb-area bg-img wow fadeInUp" data-wow-delay="300ms" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
+                <div class="bradcumbContent bg-secondary">
+                    <h2>Školní zpravodaj</h2>
+                </div>
+            </div>
+    </div>
+<!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Blog Area Start ##### -->
+    <div class="blog-area mt-10 section-padding-100 pb-0">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="academy-blog-posts bg-light border">
+                            {% block newsblog_content %}
+                                    {% for article in article_list %}
+                                        {% include "aldryn_newsblog/includes/featured_article.html" %}
+                                    {% empty %}
+                                        <p class="well">{% trans "No items available" %}</p>
+                                    {% endfor %}
+                            {% endblock %}
+                    </div>
+
+                    <!-- Pagination Area Start -->
+                    <div class="academy-pagination-area wow fadeInUp" data-wow-delay="400ms">
+                        <nav>
+                            <ul class="pagination">
+                            {% block newsblog_footer %}
+                                    {% include "aldryn_newsblog/includes/pagination.html" %}
+                            {% endblock %}
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="academy-blog-sidebar">
+                        {% static_placeholder "newsblog_sidebar" %}
+                        {% block newsblog_sidebar %}{% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Blog Area End ##### -->
+{% endblock content %}

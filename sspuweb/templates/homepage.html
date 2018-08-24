@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+
+	<!-- ##### Homepage Carousel ##### -->
+	{% include "includes/carousel/carousel.html" %}
+	<!-- ##### /Homepage Carousel ##### -->
+
+	<!-- ##### Navigace Obory ##### -->
+	{% include "includes/menu/courses.html" %}
+	<!-- ##### /Navigace Obory ##### -->
+
+
+    <!-- ##### Top Popular Courses Area Start ##### -->
+    <div class="top-popular-courses-area section-padding-100-70 pb-0 wow fadeInUp" data-wow-delay="300ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-3">
+					<div class="well well-lg bg-hracka">
+						<h3 class="text-uppercase p-3 mt-0 text-white bg-hracka border-bottom">Maturity</h3>
+						<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolor dolore ea facilis illo itaque laborum magni maiores molestias nam nemo nisi, nostrum nulla pariatur sed sequi tempore ullam voluptas?</p>
+					</div>
+                </div>
+                <div class="col-md-8 col-lg-3">
+					<div class="well well-lg bg-light">
+						<h4 class="text-uppercase p-3 mt-0 text-white bg-grafika">Den otevřených dveří</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolor dolore ea facilis illo itaque laborum magni maiores molestias nam nemo nisi, nostrum nulla pariatur sed sequi tempore ullam voluptas?</p>
+					</div>
+                </div>
+                <div class="col-md-8 col-lg-3">
+					<blockquote>
+					Lorem ipsum dolor sit amet! Assumenda commodi doloremque est ipsa numquam possimus, repellendus tempora. Dignissimos nostrum quibusdam quis! Eos, vitae?
+					</blockquote>
+                </div>
+                <div class="col-md-8 col-lg-3">
+					<div class="well well-lg bg-light">
+						<h4 class="text-uppercase p-3 mt-0 text-primary border-bottom">Nový web</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolor dolore ea facilis illo itaque laborum magni maiores molestias nam nemo nisi, nostrum nulla pariatur sed sequi tempore ullam voluptas?</p>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top Popular Courses Area Start ##### -->
+    <div class="top-popular-courses-area section-padding-100-70 pb-0 pt-0 wow fadeInUp" data-wow-delay="300ms">
+        <div class="container bg-light border">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mx-auto wow fadeInUp pt-3" data-wow-delay="300ms">
+                        <h3 class="text-uppercase text-secondary">Školní zpravodaj <span class="text-secondary">zprávy a události slovem i obrazem</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        {% placeholder "featured_article" %}
+                        {% block featured_article %}{% endblock %}
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                {% placeholder "latest_articles" %}
+                {% block latest_articles %}{% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top Popular Courses Area End ##### -->
+
+    <!-- ##### Top Popular Courses Area Start ##### -->
+    <div class="top-popular-courses-area section-padding-100-70 pb-0 pt-0 mt-30 mb-30 wow fadeInUp" data-wow-delay="300ms">
+        <div class="container bg-secondary pb-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mx-auto wow fadeInUp pt-3" data-wow-delay="300ms">
+                        <h3 class="text-uppercase text-light">Fotogalerie <span class="text-light">Cykloturistický kurz</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                {% placeholder "photogallery" %}
+                {% block photogallery %}{% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top Popular Courses Area End ##### -->
+
+	{% placeholder "content" %}
+{% endblock content %}

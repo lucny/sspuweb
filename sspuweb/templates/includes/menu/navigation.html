@@ -1,0 +1,15 @@
+{% load i18n menu_tags cache %}
+{# DOCS: http://django-cms.readthedocs.org/en/latest/advanced/templatetags.html#show-menu-examples #}
+
+{% for child in children %}
+<li{% if child.children %} class="cn-dropdown-item has-down pr12"{% endif %}>
+    <a href="{{ child.get_absolute_url }}">{{ child.get_menu_title }}</a>
+    {% if child.children %}
+        <ul class="dropdown">
+            {% show_menu from_level to_level extra_inactive extra_active template "" "" child %}
+        </ul>
+        <span class="dd-trigger"></span><span class="dd-arrow"></span>
+    {% endif %}
+</li>
+{% endfor %}
+

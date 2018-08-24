@@ -1,0 +1,60 @@
+{% load i18n thumbnail cms_tags aldryn_people_tags %}
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="media p-4 border mb-4 bg-white">
+    {% if person.visual %}
+            <img src="{% thumbnail person.visual 200x300 crop subject_location=person.visual.subject_location %}" alt="{{ person.name }}"  class="w-25">
+    {% else %}
+            <img class="align-self-start rounded-circle w-25" src="/static/img/core-img/avatar4.png">
+    {% endif %}
+             <div class="media-body pl-5">
+
+    <h3 class="text-dark text-center pt-3 m-0 pb-0">{{ person.fax }} {{ person.name }}</h3>
+
+    <p class="text-center text-uppercase border-bottom p-3">{{ person.function }}</p>
+    <div class="p-3">
+        <p>
+            {% if person.phone %}
+            <i class="fa fa-phone icons" aria-hidden="true"></i>
+            {{ person.phone }}
+            {% endif %}
+        </p>
+        <p>
+            {% if person.mobile %}
+                <i class="fa fa-phone icons" aria-hidden="true"></i>
+                {{ person.mobile|phoneformat }}
+            {% endif %}
+        </p>
+        <p>
+            {% if person.email %}
+                <i class="fa fa-envelope icons" aria-hidden="true"></i>
+                <a href="mailto:{{ person.email }}" class="small">{{ person.email }}</a>
+            {% endif %}
+        </p>
+        <p>
+            {% if person.website %}
+                <i class="fa fa-globe icons" aria-hidden="true"></i>
+                <a href="{{ person.website }}" target="_blank" class="small">{{ person.website }}</a>
+            {% endif %}
+        </p>
+<!--
+        <p>
+            {% if not instance and person.vcard_enabled or instance.show_vcard and person.vcard_enabled and person.get_vcard_url %}
+                <i class="fa fa-address-card icons" aria-hidden="true"></i>
+                <a href="{{ person.get_vcard_url }}" class="small">
+                    vizitka ke stažení
+                </a>
+            {% endif %}
+        </p>
+-->
+    </div>
+                        </div>
+                    </div>
+                </div>
+    {% if person.description %}
+    <div class="col-lg-6">
+        <h6 class="text-light text-uppercase text-center p-3 m-0 bg-secondary">Další informace</h6>
+        <div class="p-4">
+        {{ person.description|safe }}
+        </div>
+    </div>
+    {% endif %}

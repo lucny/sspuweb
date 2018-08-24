@@ -1,0 +1,11 @@
+{% load i18n cms_tags %}
+<{{ instance.tag_type }} {{ instance.attributes_str }}
+    id="carousel-{{ instance.pk }}"
+>
+    {% with 1920 as width and 900 as height %}
+            {% for plugin in instance.child_plugin_instances %}
+                {% render_plugin plugin %}
+            {% endfor %}
+    {% endwith %}
+
+</{{ instance.tag_type }}>

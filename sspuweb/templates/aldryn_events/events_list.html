@@ -1,0 +1,56 @@
+{% extends "aldryn_events/base.html" %}
+{% load staticfiles i18n aldryn_events cms_tags %}
+
+{% block events_content %}
+<!-- ##### Breadcumb Area Start ##### -->
+    <div class="container p-0">
+            <div class="breadcumb-area bg-img wow fadeInUp" data-wow-delay="300ms" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
+                <div class="bradcumbContent bg-heading">
+                    <h2>Školní kalendář</h2>
+                </div>
+            </div>
+    </div>
+<!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Blog Area Start ##### -->
+    <div class="blog-area mt-10 section-padding-100 pb-0">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="academy-blog-posts bg-light border p-3">
+                    {# INFO: show upcoming events #}
+                    {% regroup page_obj.object_list|default:object_list by start_date as event_list_grouped %}
+                    {% for ev_group in event_list_grouped %}
+                        <h4 class="text-center text-uppercase bg-secondary text-light m-0 ml-3 mr-3  p-3">{{ ev_group.grouper|date:"l j. F o" }}</h4>
+                        {% for event in ev_group.list %}
+                            {% include "aldryn_events/includes/event.html" with is_upcoming_events="true" %}
+                        {% endfor %}
+                    {% empty %}
+                        <p>{% trans "No items available" %}</p>
+                    {% endfor %}
+                    </div>
+                    <!-- Pagination Area Start -->
+                    <div class="academy-pagination-area wow fadeInUp" data-wow-delay="400ms">
+                        <nav>
+                            <ul class="pagination">
+                                {% include "aldryn_events/includes/pagination.html" %}
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="events-sidebar">
+                        <div class="calendar text-center p-3 mb-30 bg-light border">
+                        {% block calendar %}
+                            {% calendar event_year event_month namespace=view.namespace %}
+                        {% endblock %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Blog Area End ##### -->
+    {% get_current_language as language %}
+{% endblock %}

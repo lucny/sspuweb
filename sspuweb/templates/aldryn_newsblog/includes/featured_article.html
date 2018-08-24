@@ -1,0 +1,28 @@
+{% load i18n staticfiles thumbnail cms_tags apphooks_config_tags %}
+
+<!-- Single Blog Start -->
+    <div class="col-lg-6 single-blog-post wow fadeInUp bg-light pt-0" data-wow-delay="300ms">
+        <!-- Post Thumb -->
+    {# The image is only shown on the detail view by using the condition "and detail_view" #}
+    {% if article.featured_image_id %}
+        <div class="blog-post-thumb mt-0 mb-30">
+        <img src="{% thumbnail article.featured_image 800x450 crop subject_location=article.featured_image.subject_location %}"
+             alt="{{ article.featured_image.alt }}">
+        </div>
+    {% endif %}
+        <!-- Post Title -->
+        <h4 class="border-bottom mt-0">
+        <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}" class="featured-post-title text-uppercase">
+            {% render_model article "title" %}</a></h4>
+        <!-- Post Meta -->
+        <div class="post-meta mb-0">
+            <p>
+            {{ article.publishing_date|date }},
+            {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
+            </p>
+        </div>
+        <!-- Post Excerpt -->
+        <p>{% render_model article "lead_in" %}</p>
+        <!-- Read More btn -->
+        <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}" class="btn btn-default mt-15">Celý článek</a>
+    </div>

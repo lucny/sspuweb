@@ -1,0 +1,24 @@
+{% load i18n staticfiles thumbnail cms_tags apphooks_config_tags %}
+
+{% load i18n %}
+{% if article_list is not empty %}
+<div class="blog-post-categories mb-30 wow fadeInUp" data-wow-delay="300ms">
+    <h5>Související články</h5>
+    <ul>
+        {% for article in article_list %}
+            <li>
+                <h4><a href="{{ article.get_absolute_url }}">{{ article.title }}</a></h4>
+            </li>
+        {% empty %}
+            <li>{% trans "No items available" %}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+<article class="article">
+    <h6>
+       <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">
+            {% render_model article "title" %}</a>
+    </h6>
+</article>

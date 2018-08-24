@@ -1,0 +1,45 @@
+{% load i18n thumbnail cms_tags aldryn_people_tags %}
+                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="media p-4 border mb-4 bg-white">
+    {% if person.visual %}
+            <img src="{% thumbnail person.visual 200x300 crop subject_location=person.visual.subject_location %}" alt="{{ person.name }}"  class="w-25">
+    {% else %}
+            <img class="align-self-start rounded-circle w-25" src="/static/img/core-img/avatar4.png">
+    {% endif %}
+                        <div class="media-body pl-4">
+
+    {% if not group %}<p class="text-dark">{% else %}<h6 class="text-dark pt-0">{% endif %}
+        {% if not instance and not detail_view or instance.show_links %}
+            {% if person.get_absolute_url %}
+                <a href="{{ person.get_absolute_url }}">{% if person.fax %}{{ person.fax }}{% endif %} {{ person.name }}</a>
+            {% else %}
+                {{ person.name }}
+            {% endif %}
+        {% else %}
+            {% render_model person 'name' %}
+        {% endif %}
+    {% if not group %}</p>{% else %}</h6>{% endif %}
+
+    <p class="small">{{ person.function }}</p>
+
+    <p class="small">
+        {% if person.phone %}
+        <i class="fa fa-phone icons" aria-hidden="true"></i>
+        {{ person.phone }}
+        {% endif %}
+    </p>
+    <p class="small">
+        {% if person.mobile %}
+            <i class="fa fa-phone icons" aria-hidden="true"></i>
+            {{ person.mobile|phoneformat }}
+        {% endif %}
+    </p>
+    <p>
+        {% if person.email %}
+            <i class="fa fa-envelope icons" aria-hidden="true"></i>
+            <a href="mailto:{{ person.email }}" class="small">{{ person.email }}</a>
+        {% endif %}
+    </p>
+                        </div>
+                    </div>
+                </div>

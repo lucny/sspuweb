@@ -1,0 +1,54 @@
+{% extends "aldryn_newsblog/base.html" %}
+{% load staticfiles cms_tags i18n  sekizai_tags apphooks_config_tags %}
+
+
+{% block newsblog_content %}
+
+<!-- ##### Breadcumb Area Start ##### -->
+    <div class="container p-0">
+            <div class="breadcumb-area bg-img wow fadeInUp" data-wow-delay="300ms" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
+                <div class="bradcumbContent bg-secondary">
+                    <h2>Školní zpravodaj</h2>
+                </div>
+            </div>
+    </div>
+<!-- ##### Breadcumb Area End ##### -->
+
+
+    <!-- ##### Blog Area Start ##### -->
+    <div class="blog-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-dark mb-30">
+                        {% render_model article "title" %}
+                    </h2>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="academy-blog-posts">
+                        <div class="row">
+                            {% include "aldryn_newsblog/includes/article.html" with detail_view="true" %}
+                        </div>
+                    </div>
+                    <ul>
+                        {% if prev_article %}
+                            <li><a href="{{ prev_article.get_absolute_url }}">{% trans "Previous Article" %}</a></li>
+                        {% endif %}
+                        <li><a href="{% namespace_url "article-list" %}">{% trans "Back to Overview" %}</a></li>
+                        {% if next_article %}
+                            <li><a href="{{ next_article.get_absolute_url }}">{% trans "Next Article" %}</a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="academy-blog-sidebar">
+                        {% static_placeholder "article_sidebar" %}
+                        {% block article_sidebar %}{% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Blog Area End ##### -->
+{% endblock %}
