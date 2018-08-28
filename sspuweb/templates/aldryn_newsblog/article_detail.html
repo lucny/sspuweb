@@ -6,7 +6,7 @@
 
 <!-- ##### Breadcumb Area Start ##### -->
     <div class="container p-0">
-            <div class="breadcumb-area bg-img wow fadeInUp" data-wow-delay="300ms" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
+            <div class="breadcumb-area bg-img wow fadeIn" data-wow-delay="300ms" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
                 <div class="bradcumbContent bg-secondary">
                     <h2>Školní zpravodaj</h2>
                 </div>
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="text-center text-dark mb-30">
+                    <h2 class="text-center text-dark text-uppercase mb-30">
                         {% render_model article "title" %}
                     </h2>
                 </div>
@@ -30,15 +30,15 @@
                             {% include "aldryn_newsblog/includes/article.html" with detail_view="true" %}
                         </div>
                     </div>
-                    <ul>
+                    <p>
                         {% if prev_article %}
-                            <li><a href="{{ prev_article.get_absolute_url }}">{% trans "Previous Article" %}</a></li>
+                            <a href="{{ prev_article.get_absolute_url }}">{% trans "Previous Article" %}</a>&nbsp;|&nbsp;
                         {% endif %}
-                        <li><a href="{% namespace_url "article-list" %}">{% trans "Back to Overview" %}</a></li>
+                        <a href="{% namespace_url "article-list" %}">{% trans "Back to Overview" %}</a>
                         {% if next_article %}
-                            <li><a href="{{ next_article.get_absolute_url }}">{% trans "Next Article" %}</a></li>
+                            &nbsp;|&nbsp;<a href="{{ next_article.get_absolute_url }}">{% trans "Next Article" %}</a>
                         {% endif %}
-                    </ul>
+                    </p>
                 </div>
 
                 <div class="col-12 col-md-4">

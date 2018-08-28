@@ -41,11 +41,7 @@ DEBUG_TOOLBAR_CONFIG = {
     "SHOW_TOOLBAR_CALLBACK" : show_toolbar,
 }
 
-
-
 ROOT_URLCONF = 'sspuweb.urls'
-
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
@@ -72,8 +68,8 @@ STATIC_ROOT = os.path.join(DATA_DIR, 'static')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'sspuweb', 'static'),
 )
-SITE_ID = 1
 
+SITE_ID = 1
 
 TEMPLATES = [
     {

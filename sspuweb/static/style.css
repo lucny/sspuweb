@@ -33,6 +33,19 @@ h6 {
   padding-top: 0.5em;
 }
 
+h2 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+
 p {
   color: #606060;
   font-size: 16px;
@@ -236,12 +249,15 @@ img {
 }
 
 /* Page content */
+.page-content h2, .page-content h3, .page-content h4, .page-content h5 {
+  text-transform: uppercase;
+  color: #141414;
+  font-weight: 400;
+}
+
 .page-content h2 {
   font-size: 24px;
-  text-transform: uppercase;
   margin-bottom: 16px;
-  font-weight: 400;
-  color: #141414;
 }
 
 @media only screen and (max-width: 767px) {
@@ -252,10 +268,7 @@ img {
 
 .page-content h3 {
   font-size: 22px;
-  text-transform: uppercase;
   margin-bottom: 16px;
-  font-weight: 400;
-  color: #141414;
 }
 
 @media only screen and (max-width: 767px) {
@@ -267,8 +280,6 @@ img {
 .page-content h4 {
   font-size: 18px;
   margin-bottom: 14px;
-  font-weight: 600;
-  color: #141414;
 }
 
 @media only screen and (max-width: 767px) {
@@ -280,8 +291,6 @@ img {
 .page-content h5 {
   font-size: 16px;
   margin-bottom: 14px;
-  font-weight: 600;
-  color: #141414;
 }
 
 @media only screen and (max-width: 767px) {
@@ -301,12 +310,24 @@ img {
 }
 
 .page-content ul {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5em;
 }
 
 .page-content ul li {
   list-style-type: disc;
-  margin-left: 1.5rem;
+  margin-left: 1.5em;
+  padding-left: 1em;
+  color: #606060;
+}
+
+.page-content ol {
+  margin-bottom: 1.5em;
+}
+
+.page-content ol li {
+  list-style-type: decimal;
+  margin-left: 1.5em;
+  padding-left: 1em;
   color: #606060;
 }
 
@@ -1378,13 +1399,14 @@ img {
 
 .breadcumb-area .bradcumbContent h2 {
   text-align: center;
-  /*line-height: 110px;*/
+  padding-top: 0.6em;
   font-size: 26px;
   color: #ffffff;
 }
 
 @media only screen and (max-width: 767px) {
   .breadcumb-area .bradcumbContent h2 {
+    padding-top: 1em;
     font-size: 20px;
   }
 }
