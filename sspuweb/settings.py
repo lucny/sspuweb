@@ -29,17 +29,17 @@ SECRET_KEY = 's4suav62--uw*_&wqshl1=kfi!5&%5)e2j7$gb1k4#h=qu^(eo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['novy.sspu-opava.cz','192.168.22.194']
 
 
 # Application definition
 
 # Show debug toolbar
-def show_toolbar(request):
-    return True
-DEBUG_TOOLBAR_CONFIG = {
-    "SHOW_TOOLBAR_CALLBACK" : show_toolbar,
-}
+#def show_toolbar(request):
+#    return True
+#DEBUG_TOOLBAR_CONFIG = {
+#    "SHOW_TOOLBAR_CALLBACK" : show_toolbar,
+#}
 
 
 
@@ -67,11 +67,17 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(DATA_DIR, 'media')
-STATIC_ROOT = os.path.join(DATA_DIR, 'static')
+STATIC_ROOT = '/var/www/sspuweb/sspuweb/sspuweb/static'
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'sspuweb', 'static'),
-)
+#STATICFILES_DIRS = (
+#    os.path.join(BASE_DIR, 'sspuweb', 'static'),
+#)
+
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, "static"),
+#    '/var/www/sspuweb/sspuweb/sspuweb/static/',
+#]
+
 SITE_ID = 1
 
 
@@ -260,7 +266,7 @@ DATABASES = {
             'NAME': 'sspuweb',
             'HOST': 'localhost',
             'USER': 'root',
-            'PASSWORD': 'admin',
+            'PASSWORD': '',
             'PORT': '',
             'OPTIONS': {
                 'charset': 'utf8mb4',
