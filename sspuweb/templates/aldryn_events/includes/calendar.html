@@ -6,7 +6,7 @@
             <p>{{ namespace_error }}</p>
         {% endif %}
     {% else %}
-        <div id="js-calendar-{{ plugin.instance.pk }}" class="wow fadeInUp" data-wow-delay="300ms"
+        <div id="js-calendar-{{ plugin.instance.pk }}"
             data-url="{% fallback_aware_namespace_url 'get-calendar-dates' calendar_tag.namespace %}"
             data-pk="{{ plugin.instance.pk }}"
             data-error="{% trans 'There was a problem accessing the calendar, please try again.'|escapejs %}">

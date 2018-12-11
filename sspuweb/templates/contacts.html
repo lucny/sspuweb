@@ -6,7 +6,7 @@
 {% block content %}
 <!-- ##### Breadcumb Area Start ##### -->
     <div class="container p-0">
-            <div class="breadcumb-area bg-img wow fadeInUp" data-wow-delay="300ms" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
+            <div class="breadcumb-area bg-img" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
                 <div class="bradcumbContent bg-secondary">
                     <h2>{% page_attribute "page_title" %}</h2>
                 </div>
@@ -15,7 +15,7 @@
 <!-- ##### Breadcumb Area End ##### -->
 
 <!-- ##### Google Maps ##### -->
-<div class="map-area wow fadeInUp m-0" data-wow-delay="300ms">
+<div class="map-area m-0">
     <div id="googleMap" style="background-image: url('/static/img/core-img/sspu-mapa.png')"></div>
 </div>
 
@@ -28,7 +28,7 @@
                     <div class="row">
                         <!-- Contact Information -->
                         <div class="col-12 col-lg-8">
-                            <div class="contact-information wow fadeInUp" data-wow-delay="400ms">
+                            <div class="contact-information">
                                 <div class="section-heading text-left">
                                     {% placeholder "contact-left" %}
                                 </div>
@@ -36,8 +36,8 @@
                         </div>
                         <!-- Contact Form Area -->
                         <div class="col-12 col-lg-4 bg-light">
-                            <div class="contact-information wow fadeInUp" data-wow-delay="400ms">
-                                <div class="section-heading text-left mt-30">
+                            <div class="contact-information">
+                                <div class="section-heading text-left mt-3">
                                     {% placeholder "contact-right" %}
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
 <!-- ##### Contact Area End ##### -->
 
 <!-- ##### Peoples ##### -->
-<div class="top-popular-courses-area section-padding-100-70 mt-0 pb-0 pt-0  wow fadeInUp" data-wow-delay="300ms">
+<div class="top-popular-courses-area section-padding-100-70 mt-0 pb-0 pt-0">
         <div class="container bg-light">
              {% placeholder "teachers" %}
         </div>

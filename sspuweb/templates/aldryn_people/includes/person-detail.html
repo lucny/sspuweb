@@ -1,5 +1,5 @@
 {% load i18n thumbnail cms_tags aldryn_people_tags %}
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="300ms">
+                <div class="col-lg-6">
                     <div class="media p-4 border mb-4 bg-white">
     {% if person.visual %}
             <img src="{% thumbnail person.visual 200x300 crop subject_location=person.visual.subject_location %}" alt="{{ person.name }}"  class="w-25">

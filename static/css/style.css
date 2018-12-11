@@ -3,13 +3,13 @@
 /* :: :: 1.0 Import Fonts Hind Guntur */
 @import url("https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&amp;subset=latin-ext");
 /* :: 2.0 Import All CSS */
-@import url(css/bootstrap.min.css);
-@import url(css/owl.carousel.min.css);
-@import url(css/animate.css);
-@import url(css/magnific-popup.css);
-@import url(css/font-awesome.min.css);
-@import url(css/custom-icon.css);
-@import url(css/classy-nav.min.css);
+@import url(scss/bootstrap.min.css);
+@import url(scss/owl.carousel.min.css);
+@import url(scss/animate.css);
+@import url(scss/magnific-popup.css);
+@import url(scss/font-awesome.min.css);
+@import url(scss/custom-icon.css);
+@import url(scss/classy-nav.min.css);
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -27,15 +27,29 @@ h3,
 h4,
 h5,
 h6 {
-  color: #242424;
+  color: #808080;
   line-height: 1.3;
-  font-weight: 500;
+  font-weight: 400;
+  padding-top: 0.5em;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 18px;
+  }
 }
 
 p {
   color: #606060;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.3;
   font-weight: 400;
 }
 
@@ -46,9 +60,14 @@ a:focus {
   transition-duration: 500ms;
   text-decoration: none;
   outline: 0 solid transparent;
-  color: #141414;
-  font-weight: 600;
-  font-size: 16px;
+  color: #59bddc;
+  /*font-weight: 600;*/
+  font-size: 14px;
+}
+
+a:hover,
+a:focus {
+  color: #808080;
 }
 
 ul,
@@ -173,12 +192,17 @@ img {
   padding-bottom: 70px;
 }
 
+.section-padding-70-10 {
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
 /* Section Heading */
 .section-heading {
   position: relative;
   z-index: 1;
   max-width: 600px;
-  margin-bottom: 80px !important;
+  margin-bottom: 10px !important;
 }
 
 .section-heading span {
@@ -190,15 +214,28 @@ img {
   letter-spacing: 2px;
 }
 
-.section-heading h3 {
-  font-size: 34px;
+.section-heading h2 {
+  font-size: 24px;
   margin-bottom: 0;
-  font-weight: 600;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-heading h2 {
+    font-size: 18px;
+  }
+}
+
+.section-heading h3 {
+  font-size: 22px;
+  margin-bottom: 0;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 767px) {
   .section-heading h3 {
-    font-size: 24px;
+    font-size: 16px;
   }
 }
 
@@ -209,6 +246,94 @@ img {
 .section-heading.white span,
 .section-heading.white h3 {
   color: #ffffff;
+}
+
+/* Page content */
+.page-content h2, .page-content h3, .page-content h4, .page-content h5 {
+  text-transform: uppercase;
+  color: #141414;
+  font-weight: 400;
+}
+
+.page-content h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  .page-content h2 {
+    font-size: 18px;
+  }
+}
+
+.page-content h3 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  .page-content h3 {
+    font-size: 16px;
+  }
+}
+
+.page-content h4 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+@media only screen and (max-width: 767px) {
+  .page-content h4 {
+    font-size: 14px;
+  }
+}
+
+.page-content h5 {
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+@media only screen and (max-width: 767px) {
+  .page-content h5 {
+    font-size: 14px;
+  }
+}
+
+.page-content p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  .page-content p {
+    font-size: 14px;
+  }
+}
+
+.page-content ul {
+  margin-bottom: 1.5em;
+}
+
+.page-content ul li {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  padding-left: 1em;
+  color: #606060;
+}
+
+.page-content ol {
+  margin-bottom: 1.5em;
+}
+
+.page-content ol li {
+  list-style-type: decimal;
+  margin-left: 1.5em;
+  padding-left: 1em;
+  color: #606060;
+}
+
+/* Menu */
+.breakpoint-off .classynav ul li .dropdown {
+  width: 240px;
 }
 
 /* Preloader */
@@ -441,7 +566,7 @@ img {
 .header-area .academy-main-menu {
   position: absolute;
   width: 100%;
-  height: 85px;
+  height: 55px;
   background-color: transparent;
   top: 95px;
   z-index: 100;
@@ -455,7 +580,7 @@ img {
 
 .header-area .academy-main-menu .classy-navbar {
   background-color: #f5f7fa;
-  height: 85px;
+  height: 55px;
   padding: 0;
 }
 
@@ -474,7 +599,7 @@ img {
 }
 
 .header-area .academy-main-menu .classy-navbar .classynav ul li a {
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -523,8 +648,8 @@ img {
   background: -webkit-gradient(linear, left top, right top, from(#666), to(#888));
   background: linear-gradient(to right, #666, #888);
   padding: 0 40px;
-  line-height: 85px;
-  height: 85px;
+  line-height: 55px;
+  height: 55px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -536,7 +661,7 @@ img {
 .header-area .academy-main-menu .calling-info .call-center a {
   color: #ffffff;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   display: block;
 }
 
@@ -586,7 +711,7 @@ img {
 .header-area .is-sticky .academy-main-menu {
   position: fixed;
   width: 100%;
-  height: 85px;
+  height: 55px;
   top: 0;
   left: 0;
   z-index: 3000;
@@ -613,26 +738,26 @@ img {
 
 .hero-slides .single-hero-slide {
   width: 100%;
-  height: 850px;
+  height: 500px;
   position: relative;
   z-index: 1;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-slides .single-hero-slide {
-    height: 650px;
+    /*height: 650px;*/
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-slides .single-hero-slide {
-    height: 550px;
+    /*height: 550px;*/
   }
 }
 
 @media only screen and (max-width: 767px) {
   .hero-slides .single-hero-slide {
-    height: 600px;
+    /*height: 600px;*/
   }
 }
 
@@ -655,19 +780,19 @@ img {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-slides .single-hero-slide h2 {
-    font-size: 48px;
+    font-size: 32px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-slides .single-hero-slide h2 {
-    font-size: 36px;
+    font-size: 26px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .hero-slides .single-hero-slide h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -731,7 +856,7 @@ img {
 
 @media only screen and (max-width: 767px) {
   .top-features-area {
-    margin-bottom: -115px;
+    margin-bottom: -90px;
   }
 }
 
@@ -742,8 +867,8 @@ img {
   background: -webkit-gradient(linear, left top, right top, from(#666), to(#888));
   background: linear-gradient(to right, #666, #888);
   padding: 40px 15px;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-16, 66%);
+  transform: translateY(-16, 66%);
 }
 
 .top-features-area .features-content .single-top-features {
@@ -780,15 +905,15 @@ img {
 }
 
 .top-features-area .features-content .single-top-features h5 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
-  font-weight: 600;
+  font-weight: 400;
   color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .top-features-area .features-content .single-top-features h5 {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -941,7 +1066,7 @@ img {
 
 .single-top-popular-course .popular-course-content h5 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 8px;
 }
 
@@ -1038,7 +1163,7 @@ img {
 }
 
 .popular-course-details-area .single-top-popular-course .popular-course-content h5 {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 500;
   margin-bottom: 8px;
   margin-left: -2px;
@@ -1149,7 +1274,7 @@ img {
 
 /* Footer Area CSS */
 .main-footer-area {
-  background-color: #232323;
+  background-color: #444;
 }
 
 .main-footer-area .footer-widget .widget-title {
@@ -1158,7 +1283,7 @@ img {
 
 .main-footer-area .footer-widget .widget-title h6 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0;
   color: #ffffff;
   margin-top: 10px;
@@ -1180,7 +1305,7 @@ img {
   color: #606060;
   margin-bottom: 15px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .main-footer-area .footer-widget .useful-links li a:hover, .main-footer-area .footer-widget .useful-links li a:focus {
@@ -1239,7 +1364,7 @@ img {
 }
 
 .bottom-footer-area p a {
-  color: #606060;
+  color: #ddd;
   font-size: 12px;
 }
 
@@ -1252,8 +1377,9 @@ img {
 }
 
 .breadcumb-area .bradcumbContent {
-  width: 500px;
-  height: 110px;
+  width: 100%;
+  height: 60px;
+  text-transform: uppercase;
   background: #aaa;
   background: -webkit-gradient(linear, left top, right top, from(#666), to(#888));
   background: linear-gradient(to right, #666, #888);
@@ -1267,20 +1393,21 @@ img {
 
 @media only screen and (max-width: 767px) {
   .breadcumb-area .bradcumbContent {
-    width: 280px;
+    width: 100%;
   }
 }
 
 .breadcumb-area .bradcumbContent h2 {
   text-align: center;
-  line-height: 110px;
-  font-size: 36px;
+  padding-top: 0.6em;
+  font-size: 26px;
   color: #ffffff;
 }
 
 @media only screen and (max-width: 767px) {
   .breadcumb-area .bradcumbContent h2 {
-    font-size: 24px;
+    padding-top: 1em;
+    font-size: 20px;
   }
 }
 
@@ -1350,18 +1477,29 @@ img {
 }
 
 .single-blog-post {
-  background-color: #eef3f6;
+  background-color: #fafafa;
   padding: 30px;
 }
 
 .single-blog-post .post-title {
-  font-size: 24px;
+  font-size: 22px;
   display: block;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 
 .single-blog-post .post-title:hover, .single-blog-post .post-title:focus {
+  color: #a8a8a8;
+}
+
+.single-blog-post .featured-post-title {
+  font-size: 18px;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.single-blog-post .featured-post-title:hover, .single-blog-post .featured-post-title:focus {
   color: #a8a8a8;
 }
 
@@ -1370,15 +1508,15 @@ img {
 }
 
 .single-blog-post .post-meta p {
-  font-size: 12px;
+  font-size: 14px;
   color: #a8a8a8;
   margin-bottom: 0;
 }
 
 .single-blog-post .post-meta p a {
-  font-size: 12px;
+  font-size: 14px;
   color: #a8a8a8;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .academy-pagination-area .pagination .page-item .page-link {
@@ -1389,7 +1527,7 @@ img {
   padding: 0;
   border: none;
   margin-right: 10px;
-  color: #242424;
+  color: #808080;
   font-size: 12px;
   font-weight: 600;
   text-align: center;
@@ -1451,22 +1589,76 @@ img {
 }
 
 .blog-post-categories h5 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 30px;
 }
 
 .blog-post-categories ul {
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .blog-post-categories ul li a {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
   margin-bottom: 10px;
   display: block;
 }
 
 .blog-post-categories ul li a:hover, .blog-post-categories ul li a:focus {
+  color: #a8a8a8;
+}
+
+.blog-post-categories .active a {
+  color: #59bddc;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.blog-post-categories .active a:hover, .blog-post-categories .active a:focus {
+  color: #a8a8a8;
+}
+
+.blog-post-tags {
+  background-color: #eef3f6;
+  padding: 30px;
+}
+
+.blog-post-tags h5 {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.blog-post-tags ul {
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+.blog-post-tags ul li {
+  float: left;
+}
+
+.blog-post-tags ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.blog-post-tags ul li a:hover, .blog-post-tags ul li a:focus {
+  color: #a8a8a8;
+}
+
+.blog-post-tags .active a {
+  color: #59bddc;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.blog-post-tags .active a:hover, .blog-post-tags .active a:focus {
   color: #a8a8a8;
 }
 
@@ -1490,7 +1682,7 @@ img {
 .latest-blog-posts .latest-blog-post-content .post-title h6 {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 3px;
 }
 
@@ -1516,7 +1708,7 @@ img {
 
 .map-area #googleMap {
   width: 100%;
-  height: 650px;
+  height: 500px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1528,17 +1720,29 @@ img {
 /* Contact Area CSS */
 .contact-content {
   background-color: #eef3f6;
-  padding: 100px 50px;
+  padding: 50px 30px 10px 30px;
   position: relative;
   z-index: 15;
   top: -200px;
-  margin-bottom: -100px;
+  margin-bottom: -150px;
 }
 
 @media only screen and (max-width: 767px) {
   .contact-content {
-    padding: 50px 30px;
+    padding: 50px 30px 10px 30px;
   }
+}
+
+.contact-content h3 {
+  font-size: 1.5rem;
+}
+
+.contact-content h4 {
+  color: #606060;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 1.3rem;
+  letter-spacing: 2px;
 }
 
 .contact-content .section-heading {
@@ -1591,7 +1795,7 @@ img {
 }
 
 .elements-title h2 {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .elements-title span {
@@ -1604,7 +1808,7 @@ img {
 }
 
 .single-pie-bar h6 {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .single-cool-fact {
@@ -1659,7 +1863,7 @@ img {
   position: relative;
   font-size: 14px;
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .single-accordion h6 a span {
@@ -1748,7 +1952,86 @@ img {
 }
 
 .academy-tabs-content .tab-content h6 {
-  font-size: 18px;
+  font-size: 16px;
+}
+
+.events-sidebar .calendar {
+  margin-top: 0;
+  /*h3 {
+            font-size: 24px;
+            background-color: $secondary-color;
+            color: #fafafa;
+            text-transform: uppercase;
+            padding: 5px;
+            text-align: center;
+            margin-top: 0;
+        }*/
+}
+
+.events-sidebar .calendar .js-calendar-table {
+  /* max-width: 400px;
+            td, th {
+                border: 1px solid gray;
+                padding: 5px;
+                text-align: center;
+            }
+            th {
+                background-color: $secondary-color;
+                color: #fafafa;
+                width: 50px;                
+            }*/
+}
+
+.events-sidebar .calendar .js-calendar-table th {
+  width: 70px;
+  text-align: center;
+}
+
+.events-sidebar .calendar p {
+  text-align: center;
+}
+
+.events-sidebar .calendar p a {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+.course-page .course-heading h2 {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .course-page .course-heading h2 {
+    font-size: 20px;
+  }
+}
+
+.course-page .course-profile h3 {
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .course-page .course-profile h3 {
+    font-size: 14px;
+  }
+}
+
+.course-page .course-profile p {
+  color: #bbb;
+}
+
+.course-page .course-content h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .course-page .course-content h2 {
+    font-size: 20px;
+  }
 }
 
 /* Obory - úvodní menu */
@@ -1778,5 +2061,13 @@ img {
 
 .bg-grafika {
   background-color: #c42079;
+}
+
+.bg-gray {
+  background-color: #3c3c3c;
+}
+
+.bg-heading {
+  background-color: #808080;
 }
 /*# sourceMappingURL=style.css.map */

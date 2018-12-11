@@ -48,26 +48,22 @@ h2 {
 
 p {
   color: #606060;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.3;
   font-weight: 400;
 }
 
-a,
-a:hover,
-a:focus {
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
+a, .icons {
   text-decoration: none;
-  outline: 0 solid transparent;
-  color: #59bddc;
+  /*  outline: 0 solid transparent;
+    @include trans-duration(500ms);*/
+  color: #3c8cb5;
   /*font-weight: 600;*/
-  font-size: 14px;
 }
 
 a:hover,
 a:focus {
-  color: #808080;
+  color: #4c9ca5;
 }
 
 ul,
@@ -871,6 +867,11 @@ img {
   transform: translateY(-16, 66%);
 }
 
+.top-features-area .features-content a:hover, .top-features-area .features-content a:focus {
+  /*text-decoration: none;*/
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .top-features-area .features-content .single-top-features {
   border-right: 2px solid #ffffff;
 }
@@ -1274,7 +1275,7 @@ img {
 
 /* Footer Area CSS */
 .main-footer-area {
-  background-color: #232323;
+  background-color: #444;
 }
 
 .main-footer-area .footer-widget .widget-title {
@@ -1364,7 +1365,7 @@ img {
 }
 
 .bottom-footer-area p a {
-  color: #606060;
+  color: #ddd;
   font-size: 12px;
 }
 
@@ -1477,8 +1478,9 @@ img {
 }
 
 .single-blog-post {
-  background-color: #fafafa;
-  padding: 30px;
+  /*background-color: #fafafa;*/
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
 .single-blog-post .post-title {
@@ -1489,7 +1491,7 @@ img {
 }
 
 .single-blog-post .post-title:hover, .single-blog-post .post-title:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .single-blog-post .featured-post-title {
@@ -1500,7 +1502,7 @@ img {
 }
 
 .single-blog-post .featured-post-title:hover, .single-blog-post .featured-post-title:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .single-blog-post .post-meta {
@@ -1515,7 +1517,7 @@ img {
 
 .single-blog-post .post-meta p a {
   font-size: 14px;
-  color: #a8a8a8;
+  color: #3c8cb5;
   font-weight: 300;
 }
 
@@ -1605,7 +1607,7 @@ img {
 }
 
 .blog-post-categories ul li a:hover, .blog-post-categories ul li a:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .blog-post-categories .active a {
@@ -1617,7 +1619,7 @@ img {
 }
 
 .blog-post-categories .active a:hover, .blog-post-categories .active a:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .blog-post-tags {
@@ -1647,11 +1649,11 @@ img {
 }
 
 .blog-post-tags ul li a:hover, .blog-post-tags ul li a:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .blog-post-tags .active a {
-  color: #59bddc;
+  color: #3c8cb5;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -1659,7 +1661,7 @@ img {
 }
 
 .blog-post-tags .active a:hover, .blog-post-tags .active a:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .latest-blog-posts {
@@ -1693,7 +1695,7 @@ img {
 }
 
 .latest-blog-posts .latest-blog-post-content .post-title h6:hover, .latest-blog-posts .latest-blog-post-content .post-title h6:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .latest-blog-posts .latest-blog-post-content .post-date {
@@ -1750,7 +1752,7 @@ img {
 }
 
 .contact-content .contact-social-info a {
-  color: #a8a8a8;
+  color: #3c8cb5;
   display: inline-block;
   margin-right: 30px;
 }
@@ -1758,7 +1760,7 @@ img {
 .contact-content .contact-icon i {
   padding-top: 5px;
   display: inline-block;
-  color: #a8a8a8;
+  color: #3c8cb5;
 }
 
 .contact-content .contact-form-area {
@@ -2034,12 +2036,32 @@ img {
   }
 }
 
+.alert-light {
+  padding: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.alert-light a {
+  color: white;
+}
+
+.alert-light .btn-secondary {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 /* Obory - úvodní menu */
 .obor-menu {
   padding: 1rem !important;
   margin-bottom: 0 !important;
   border-right: none !important;
   border-bottom: none !important;
+}
+
+.obor-menu a:hover,
+.obor-menu a:focus {
+  color: #ddd;
+  text-decoration: none;
 }
 
 /* Barvy pozadí - obory */
@@ -2069,5 +2091,9 @@ img {
 
 .bg-heading {
   background-color: #808080;
+}
+
+.bg-transparent-50 {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 /*# sourceMappingURL=style.css.map */

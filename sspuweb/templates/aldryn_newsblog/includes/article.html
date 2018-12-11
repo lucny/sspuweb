@@ -1,11 +1,11 @@
 {% load i18n staticfiles thumbnail cms_tags apphooks_config_tags %}
 
 <!-- Single Blog Start -->
-    <div class="single-blog-post page-content mb-50 wow fadeIn border" data-wow-delay="300ms">
+    <div class="single-blog-post page-content mb-5 border text-justify">
         <!-- Post Thumb -->
     {# The image is only shown on the detail view by using the condition "and detail_view" #}
     {% if article.featured_image_id %}
-        <div class="blog-post-thumb mb-50">
+        <div class="blog-post-thumb mb-5">
         <img src="{% thumbnail article.featured_image 800x450 crop subject_location=article.featured_image.subject_location %}"
              alt="{{ article.featured_image.alt }}">
         </div>
@@ -16,7 +16,7 @@
         {% render_placeholder article.content language placeholder_language %}
         {% endif %}
         <!-- Post Meta -->
-        <div class="post-meta border-top p-3">
+        <div class="post-meta border-top p-2">
             <p>Autor:
             {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
             </p>

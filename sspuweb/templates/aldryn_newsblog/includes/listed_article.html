@@ -1,8 +1,8 @@
 {% load i18n staticfiles thumbnail cms_tags apphooks_config_tags %}
 
 <!-- Single Blog Start -->
-<div class="col-12">
-    <div class="single-blog-post pb-0 wow fadeInUp" data-wow-delay="300ms">
+<div class="col-12 p-2">
+    <div class="single-blog-post pb-0">
         <!-- Post Thumb -->
     {# The image is only shown on the detail view by using the condition "and detail_view" #}
     {% if article.featured_image_id %}
@@ -23,6 +23,6 @@
             </p>
         </div>
         <!-- Post Excerpt -->
-        <div>{% render_model article "lead_in" %}</div>
+        <div class="text-justify p-0">{% render_model article "lead_in" %}</div>
     </div>
 </div>
