@@ -1,6 +1,6 @@
 {% load i18n %}
-<div class="wow fadeInUp" data-wow-delay="300ms">
-<h5 class="text-uppercase p-2 mt-0 text-white bg-secondary">Přehled akcí</h5>
+<div>
+<h4 class="text-uppercase text-center text-white bg-secondary">Přehled akcí</h4>
 {% if plugin_configuration_error %}
     {% if request.user.is_staff or request.user.is_superuser %}
         <p>{{ plugin_configuration_error }}</p>

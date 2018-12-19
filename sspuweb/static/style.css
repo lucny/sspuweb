@@ -34,7 +34,7 @@ h6 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 0;
   font-weight: 400;
   color: #ffffff;
@@ -43,6 +43,36 @@ h2 {
 @media only screen and (max-width: 767px) {
   h2 {
     font-size: 18px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+  h4 {
+    font-size: 16px;
+  }
+}
+
+h5 {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  h5 {
+    font-size: 15px;
   }
 }
 
@@ -211,7 +241,7 @@ img {
 }
 
 .section-heading h2 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 0;
   font-weight: 400;
   color: #ffffff;
@@ -224,7 +254,7 @@ img {
 }
 
 .section-heading h3 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -252,7 +282,7 @@ img {
 }
 
 .page-content h2 {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 16px;
 }
 
@@ -263,7 +293,7 @@ img {
 }
 
 .page-content h3 {
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 16px;
 }
 
@@ -274,7 +304,7 @@ img {
 }
 
 .page-content h4 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 14px;
 }
 
