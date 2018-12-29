@@ -1,24 +1,23 @@
-{% extends "aldryn_newsblog/base.html" %}
+{% extends "aldryn_newsblog/sidebar_right.html" %}
 {% load i18n apphooks_config_tags %}
 
 {% block newsblog_content %}
     <ul>
-        <h3>{% blocktrans with query=query %}Most recent articles containing "<strong>{{ query }}</strong>"{% endblocktrans %}</h3>
+        <h3 class="text-uppercase text-center text-white bg-secondary p-2">{% blocktrans with query=query %}Výsledky hledání "<strong>{{ query }}</strong>"{% endblocktrans %}</h3>
         {% for article in object_list %}
-            <li{% if not article.is_published %} class="unpublished"{% endif %}>
+            <li{% if not article.is_published %} class="unpublished"{% endif %} class="p-2">
                 <a href="{% namespace_url "article-detail" article.slug namespace=view.app_config.namespace default='' %}">
-                    <strong>
+                    <strong>{{ article.title }}</strong>
+                </a>
+<!--
                         {% for category in article.categories.all %}
                             {{ category.name }}{% if not forloop.last %}, {% endif %}
                         {% endfor %}
-                    </strong>
-                    {{ article.title }}<br />
-                    {{ article.lead_in|striptags|truncatewords:"10"|safe }}
-                </a>
+-->
             </li>
         {% empty %}
             {% if query %}
-                <p>{% blocktrans with query=query %}No articles found{% endblocktrans %}</p>
+                <p>{% blocktrans with query=query %}Nic nebylo nalezeno{% endblocktrans %}</p>
             {% else %}
                 <p>{% trans "Enter a query above" %}</p>
             {% endif %}

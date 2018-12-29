@@ -1,0 +1,996 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="cs" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />  
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="Ministerstvo školství, sport, tělovýchova, vzdělávání, Česká republika, MŠMT" />
+<meta name="description" content=" 
+Právní úprava přijímacího řízení, tiskopisy přihlášek ke střednímu vzdělávání a další informace jsou uvedeny zde a
+dále na stránkách Centra pro zjišťování výsledků vzdělávání.
+" />
+<meta name="rating" content="general" />
+<meta name="author" content="QCM, s.r.o web@qcm.cz http://www.qcm.cz" />
+<meta name="copyright" content="Copyright © 2013 MŠMT" />
+<meta name="generator" content="Marwel" />
+<title>Přijímání na střední školy a konzervatoře, MŠMT ČR</title>    
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+     _gaq.push(
+      ['_setAccount', 'UA-24029635-1'],
+      ['_setCustomVar', 2, 'Weekday', '5', 2],
+      ['_trackPageview'],
+      ['_trackPageLoadTime']
+    );
+
+        
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<link href="http://www.msmt.cz/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/css/font/style.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/css/print-min.css"    type="text/css" media="print" />
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/css/handheld-min.css" type="text/css" media="handheld" />
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/css/inline-min.css"     type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/js/calendar/calendar-blue.css"     type="text/css" media="screen, projection" />
+<link href="http://www.msmt.cz/themes/msmt2017/css/select2.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/css/slick.css"     type="text/css"/>
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/css/slick-theme.css"     type="text/css"/>
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/css/magnific-popup.css"     type="text/css"/>
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/css/demo.css"     type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="http://www.msmt.cz/themes/msmt2017/css/main.css?20181217"     type="text/css" media="screen, projection" />
+<link rel="alternate" title="RSS webu MŠMT ČR" href="http://www.msmt.cz/rss/cs" type="application/rss+xml" />
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/qcm/resolutiondetector.js"></script>
+<link rel="alternate" title="RSS sekce Střední vzdělávání" href="http://www.msmt.cz/rss/cs/189777" type="application/rss+xml" />
+<link rel="alternate" title="RSS sekce Přijímání na střední školy a konzervatoře" href="http://www.msmt.cz/rss/cs/189865" type="application/rss+xml" />
+<link rel="start"  href="http://www.msmt.cz" title="Homepage" />
+<link rel="index"  href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani" title="Střední vzdělávání" />
+<link rel="search"     href="http://www.msmt.cz/search.php" title="Search" />
+<link rel="help"       href="http://www.msmt.cz/o-webu-msmt" title="Help" />
+<link rev="subsection" href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani" title="Střední vzdělávání" />
+<link rel="search" href="http://www.msmt.cz/opensearch.xml" type="application/opensearchdescription+xml" title="MŠMT ČR" />
+<script type="text/javascript">
+      //<![CDATA[
+      function openWithSelfMain(url,name,width,height,returnwindow) {
+          var options = "width=" + width + ",height=" + height + ",toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no";
+
+          var new_window = window.open(url, name, options);
+          window.self.name = "main";
+          new_window.focus();
+          if (returnwindow != null) {
+             return new_window;
+          }
+      }
+      //]]>
+    </script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/scriptaculous/lib/prototype.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/scriptaculous/scriptaculous.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/qcm/qcm.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/global.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/carousel-min.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/flashcontrol/swfobject.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/calendar/calendar.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/calendar/calendar-setup.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/calendar/lang/calendar-cs.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/modules/obscura/js/obscura.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/modules/marwel/js/tracker.js"></script>
+<script type="text/javascript">
+          MarwelPageTracker.init('', 100);
+        </script>
+<style  type="text/css">
+@import "http://www.msmt.cz/modules/marwel/css/main.css";
+</style>
+<script type="text/javascript">
+    MarwelPageTracker.start('189865');
+  </script>
+<script type="text/javascript">
+    <!--
+    //--></script><script type="text/javascript" src="http://www.msmt.cz/modules/marwel/js/behavior.js"></script>
+<script type="text/javascript" src="http://www.msmt.cz/modules/marwel/js/dots.js"></script>
+<script type="text/javascript"><!--
+  Behaviour.addLoadEvent(function(){replaceDots();});
+--></script>
+<script type="text/javascript"><!--
+    //-->
+
+    Cookie.init({name: 'jscoockies', 'path': '/'}, {});
+    </script>
+<script type="text/javascript" src="http://www.msmt.cz/themes/msmt2017/js/msmtIntranet.php"></script>
+<script type="text/javascript">
+        /* <![CDATA[ */
+        function addMSMTIntranetOnLoad() {
+          var oldonload = window.onload;
+          
+          if (typeof window.onload != 'function') {
+            window.onload = function() {
+              showMSMTIntranet();
+            }
+          } else {
+            window.onload = function() {
+              oldonload();
+              showMSMTIntranet();
+            }
+          }
+        }
+        addMSMTIntranetOnLoad();
+        /* ]]> */
+    </script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if gte IE 9]>
+<style type="text/css">
+.foot-bottom {
+filter: none;
+}
+</style>
+<![endif]-->
+</head>
+<body id="www-msmt-cz">
+<div id="wrap" class=" cs         vzdelavani                                ">
+<div id="znak">       
+<section id="page">  
+<div class="page">
+<header role="banner">          
+<a href="#content" class="hdn_nav" title="Přejít na obsah [klávesová zkratka Alt+S]" accesskey="s">Skoč na obsah</a>
+<a href="#menu" class="hdn_nav" title="Skoč na navigaci" accesskey="n">Skoč na navigaci</a>
+<h1 id="logo" title="Ministerstvo školství, mládeže a tělovýchovy České republiky">
+<a href="http://www.msmt.cz" title="MŠMT ČR">
+<img src="http://www.msmt.cz/themes/msmt2017/images/logo-cs.png" alt="MŠMT ČR" title="MŠMT ČR" width="343" height="68" />
+<span>MŠMT ČR</span>                
+</a>            
+</h1>            
+<div class="cl"></div>
+<h2 class="hdn">Navigace</h2>
+<div id="row-site-navigation">
+<div id="b-6" class="bl">
+<ul class="level1">
+<li class=" ministerstvo first  submenu">
+<a href="http://www.msmt.cz/ministerstvo" title="Ministerstvo" class="ministerstvo">
+<span>Ministerstvo</span>
+</a>
+<ul class="level2">
+<li class=" ministerstvo/zakladni-informace first  ">
+<a href="http://www.msmt.cz/ministerstvo/zakladni-informace" title="Základní informace" class="ministerstvo/zakladni-informace">
+<span>Základní informace</span>
+</a>
+</li>
+<li class=" ministerstvo/sluzby-verejnosti  ">
+<a href="http://www.msmt.cz/ministerstvo/sluzby-verejnosti" title="Služby veřejnosti" class="ministerstvo/sluzby-verejnosti">
+<span>Služby veřejnosti</span>
+</a>
+</li>
+<li class=" ministerstvo/novinar  ">
+<a href="http://www.msmt.cz/ministerstvo/novinar" title="Pro novináře" class="ministerstvo/novinar">
+<span>Pro novináře</span>
+</a>
+</li>
+<li class=" ministerstvo/volna-mista  ">
+<a href="http://www.msmt.cz/ministerstvo/volna-mista" title="Volná místa" class="ministerstvo/volna-mista">
+<span>Volná místa</span>
+</a>
+</li>
+<li class=" ministerstvo/aktuality  ">
+<a href="http://www.msmt.cz/ministerstvo/aktuality" title="Aktuality" class="ministerstvo/aktuality">
+<span>Aktuality</span>
+</a>
+</li>
+<li class=" ministerstvo/hospodareni-resortu  ">
+<a href="http://www.msmt.cz/ministerstvo/hospodareni-resortu" title="Hospodaření resortu" class="ministerstvo/hospodareni-resortu">
+<span>Hospodaření resortu</span>
+</a>
+</li>
+<li class=" ministerstvo/urednik  ">
+<a href="http://www.msmt.cz/ministerstvo/urednik" title="Legislativa" class="ministerstvo/urednik">
+<span>Legislativa</span>
+</a>
+</li>
+<li class=" ministerstvo/projektova-kancelar-msmt  ">
+<a href="http://www.msmt.cz/ministerstvo/projektova-kancelar-msmt" title="Projektová kancelář MŠMT" class="ministerstvo/projektova-kancelar-msmt">
+<span>Projektová kancelář MŠMT</span>
+</a>
+</li>
+<li class=" ministerstvo/projekt-ris-msmt  ">
+<a href="http://www.msmt.cz/ministerstvo/projekt-ris-msmt" title="Projekt RIS MŠMT" class="ministerstvo/projekt-ris-msmt">
+<span>Projekt RIS MŠMT</span>
+</a>
+</li>
+<li class=" ministerstvo/archiv last  e  ">
+<a href="http://www.msmt.cz/ministerstvo/archiv" title="Archiv sekce Ministerstvo" class="ministerstvo/archiv">
+<span>Archiv sekce Ministerstvo</span>
+</a>
+</li>
+</ul>
+</li>
+<li class=" vzdelavani menu-active-parent submenu">
+<a href="/vzdelavani/skolstvi-v-cr" title="Vzdělávání" class="vzdelavani">
+<span>Vzdělávání</span>
+</a>
+<ul class="level2">
+<li class=" vzdelavani/spolecne-vzdelavani-1 first  ">
+<a href="http://www.msmt.cz/vzdelavani/spolecne-vzdelavani-1" title="Společné vzdělávání" class="vzdelavani/spolecne-vzdelavani-1">
+<span>Společné vzdělávání</span>
+</a>
+</li>
+<li class=" vzdelavani/skolstvi-v-cr  ">
+<a href="http://www.msmt.cz/vzdelavani/skolstvi-v-cr" title="Školství v ČR" class="vzdelavani/skolstvi-v-cr">
+<span>Školství v ČR</span>
+</a>
+</li>
+<li class=" vzdelavani/skolni-stravovani  ">
+<a href="http://www.msmt.cz/vzdelavani/skolni-stravovani" title="Školní stravování" class="vzdelavani/skolni-stravovani">
+<span>Školní stravování</span>
+</a>
+</li>
+<li class=" vzdelavani/predskolni-vzdelavani  ">
+<a href="http://www.msmt.cz/vzdelavani/predskolni-vzdelavani" title="Předškolní vzdělávání" class="vzdelavani/predskolni-vzdelavani">
+<span>Předškolní vzdělávání</span>
+</a>
+</li>
+<li class=" vzdelavani/zakladni-vzdelavani  ">
+<a href="http://www.msmt.cz/vzdelavani/zakladni-vzdelavani" title="Základní vzdělávání" class="vzdelavani/zakladni-vzdelavani">
+<span>Základní vzdělávání</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani active ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani" title="Střední vzdělávání" class="vzdelavani/stredni-vzdelavani">
+<span>Střední vzdělávání</span>
+</a>
+</li>
+<li class=" vzdelavani/vyssi-odborne-vzdelavani  ">
+<a href="http://www.msmt.cz/vzdelavani/vyssi-odborne-vzdelavani" title="Vyšší odborné vzdělávání" class="vzdelavani/vyssi-odborne-vzdelavani">
+<span>Vyšší odborné vzdělávání</span>
+</a>
+</li>
+<li class=" vzdelavani/vysoke-skolstvi  ">
+<a href="http://www.msmt.cz/vzdelavani/vysoke-skolstvi" title="Vysoké školství" class="vzdelavani/vysoke-skolstvi">
+<span>Vysoké školství</span>
+</a>
+</li>
+<li class=" vzdelavani/socialni-programy  ">
+<a href="http://www.msmt.cz/vzdelavani/socialni-programy" title="Spec.vzděl., prevence, inst. vých." class="vzdelavani/socialni-programy">
+<span>Spec.vzděl., prevence, inst. vých.</span>
+</a>
+</li>
+<li class=" vzdelavani/dalsi-vzdelavani last  e  ">
+<a href="http://www.msmt.cz/vzdelavani/dalsi-vzdelavani" title="Další vzdělávání" class="vzdelavani/dalsi-vzdelavani">
+<span>Další vzdělávání</span>
+</a>
+</li>
+</ul>
+</li>
+<li class=" mladez  submenu">
+<a href="http://www.msmt.cz/mladez" title="Mládež" class="mladez">
+<span>Mládež</span>
+</a>
+<ul class="level2">
+<li class=" mladez/aktuality first  ">
+<a href="http://www.msmt.cz/mladez/aktuality" title="Aktuality" class="mladez/aktuality">
+<span>Aktuality</span>
+</a>
+</li>
+<li class=" mladez/odbor-pro-mladez  ">
+<a href="http://www.msmt.cz/mladez/odbor-pro-mladez" title="Odbor pro mládež" class="mladez/odbor-pro-mladez">
+<span>Odbor pro mládež</span>
+</a>
+</li>
+<li class=" mladez/politika-mladeze  ">
+<a href="http://www.msmt.cz/mladez/politika-mladeze" title="Politika mládeže" class="mladez/politika-mladeze">
+<span>Politika mládeže</span>
+</a>
+</li>
+<li class=" mladez/financni-podpora  ">
+<a href="http://www.msmt.cz/mladez/financni-podpora" title="Finanční podpora" class="mladez/financni-podpora">
+<span>Finanční podpora</span>
+</a>
+</li>
+<li class=" mladez/operacni-program-vyzkum-vyvoj-a-vzdelavani-moznosti  ">
+<a href="http://www.msmt.cz/mladez/operacni-program-vyzkum-vyvoj-a-vzdelavani-moznosti" title="Operační programy" class="mladez/operacni-program-vyzkum-vyvoj-a-vzdelavani-moznosti">
+<span>Operační programy</span>
+</a>
+</li>
+<li class=" mladez/talentovana-mladez  ">
+<a href="http://www.msmt.cz/mladez/talentovana-mladez" title="Nadaná mládež" class="mladez/talentovana-mladez">
+<span>Nadaná mládež</span>
+</a>
+</li>
+<li class=" mladez/financovani-zajmoveho-vzelavani  ">
+<a href="http://www.msmt.cz/mladez/financovani-zajmoveho-vzelavani" title="Financování zájmového vzdělávání" class="mladez/financovani-zajmoveho-vzelavani">
+<span>Financování zájmového vzdělávání</span>
+</a>
+</li>
+<li class=" mladez/zajmove-a-neformalni-vzdelavani  ">
+<a href="http://www.msmt.cz/mladez/zajmove-a-neformalni-vzdelavani" title="Zájmové a neformální vzdělávání" class="mladez/zajmove-a-neformalni-vzdelavani">
+<span>Zájmové a neformální vzdělávání</span>
+</a>
+</li>
+<li class=" mladez/mezinarodni-spoluprace-1  ">
+<a href="http://www.msmt.cz/mladez/mezinarodni-spoluprace-1" title="Mezinárodní spolupráce" class="mladez/mezinarodni-spoluprace-1">
+<span>Mezinárodní spolupráce</span>
+</a>
+</li>
+<li class=" mladez/evropske-projekty  ">
+<a href="http://www.msmt.cz/mladez/evropske-projekty" title="ESF projekty" class="mladez/evropske-projekty">
+<span>ESF projekty</span>
+</a>
+</li>
+<li class=" mladez/icm-informacni-centra-pro-mladez  ">
+<a href="http://www.msmt.cz/mladez/icm-informacni-centra-pro-mladez" title="Poskytování informací pro mládež" class="mladez/icm-informacni-centra-pro-mladez">
+<span>Poskytování informací pro mládež</span>
+</a>
+</li>
+<li class=" mladez/mladez-v-cr  ">
+<a href="http://www.msmt.cz/mladez/mladez-v-cr" title="Mládež v ČR" class="mladez/mladez-v-cr">
+<span>Mládež v ČR</span>
+</a>
+</li>
+<li class=" mladez/letni-tabory-2  ">
+<a href="http://www.msmt.cz/mladez/letni-tabory-2" title="Letní tábory" class="mladez/letni-tabory-2">
+<span>Letní tábory</span>
+</a>
+</li>
+<li class=" mladez/odkazy  ">
+<a href="http://www.msmt.cz/mladez/odkazy" title="Odkazy" class="mladez/odkazy">
+<span>Odkazy</span>
+</a>
+</li>
+<li class=" mladez/archiv last  o  ">
+<a href="http://www.msmt.cz/mladez/archiv" title="Archiv" class="mladez/archiv">
+<span>Archiv</span>
+</a>
+</li>
+</ul>
+</li>
+<li class=" sport-1  submenu">
+<a href="http://www.msmt.cz/sport-1" title="Sport" class="sport-1">
+<span>Sport</span>
+</a>
+<ul class="level2">
+<li class=" sport-1/kontakty first  ">
+<a href="http://www.msmt.cz/sport-1/kontakty" title="Kontakty" class="sport-1/kontakty">
+<span>Kontakty</span>
+</a>
+</li>
+<li class=" sport-1/narodni-rada-pro-sport  ">
+<a href="http://www.msmt.cz/sport-1/narodni-rada-pro-sport" title="Národní rada pro sport" class="sport-1/narodni-rada-pro-sport">
+<span>Národní rada pro sport</span>
+</a>
+</li>
+<li class=" sport/akce  ">
+<a href="http://www.msmt.cz/sport/akce" title="Dokumenty" class="sport/akce">
+<span>Dokumenty</span>
+</a>
+</li>
+<li class=" sport/akreditace-1  ">
+<a href="http://www.msmt.cz/sport/akreditace-1" title="Akreditace" class="sport/akreditace-1">
+<span>Akreditace</span>
+</a>
+</li>
+<li class=" sport-1/antidoping-1  ">
+<a href="http://www.msmt.cz/sport-1/antidoping-1" title="Antidoping" class="sport-1/antidoping-1">
+<span>Antidoping</span>
+</a>
+</li>
+<li class=" sport-1/sport  ">
+<a href="http://www.msmt.cz/sport-1/sport" title="Sport" class="sport-1/sport">
+<span>Sport</span>
+</a>
+</li>
+<li class=" sport-1/odkazy  ">
+<a href="http://www.msmt.cz/sport-1/odkazy" title="Neinvestiční dotace" class="sport-1/odkazy">
+<span>Neinvestiční dotace</span>
+</a>
+</li>
+<li class=" sport-1/investice  ">
+<a href="http://www.msmt.cz/sport-1/investice" title="Investiční dotace" class="sport-1/investice">
+<span>Investiční dotace</span>
+</a>
+</li>
+<li class=" sport-1/pro-odborniky last  o  ">
+<a href="http://www.msmt.cz/sport-1/pro-odborniky" title="ARCHIV" class="sport-1/pro-odborniky">
+<span>ARCHIV</span>
+</a>
+</li>
+</ul>
+</li>
+<li class=" vyzkum-a-vyvoj-2  submenu">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj-2" title="Výzkum a vývoj" class="vyzkum-a-vyvoj-2">
+<span>Výzkum a vývoj</span>
+</a>
+<ul class="level2">
+<li class=" vyzkum-a-vyvoj-2/aktuality first  ">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj-2/aktuality" title="Aktuality" class="vyzkum-a-vyvoj-2/aktuality">
+<span>Aktuality</span>
+</a>
+</li>
+<li class=" vyzkum-a-vyvoj/dokumenty  ">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj/dokumenty" title="Dokumenty a legislativní předpisy" class="vyzkum-a-vyvoj/dokumenty">
+<span>Dokumenty a legislativní předpisy</span>
+</a>
+</li>
+<li class=" vyzkum-a-vyvoj-2/pro-odborniky  ">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj-2/pro-odborniky" title="Podpora výzkumu a vývoje" class="vyzkum-a-vyvoj-2/pro-odborniky">
+<span>Podpora výzkumu a vývoje</span>
+</a>
+</li>
+<li class=" vyzkum-a-vyvoj-2/podpora-mezinarodni-spoluprace-ve-vavai  ">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj-2/podpora-mezinarodni-spoluprace-ve-vavai" title="Mezinárodní spolupráce ve výzkumu a vývoji" class="vyzkum-a-vyvoj-2/podpora-mezinarodni-spoluprace-ve-vavai">
+<span>Mezinárodní spolupráce ve výzkumu a vývoji</span>
+</a>
+</li>
+<li class=" vyzkum-a-vyvoj/evropsky-vyzkumny-prostor-1  ">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj/evropsky-vyzkumny-prostor-1" title="Evropský výzkumný prostor" class="vyzkum-a-vyvoj/evropsky-vyzkumny-prostor-1">
+<span>Evropský výzkumný prostor</span>
+</a>
+</li>
+<li class=" vyzkum-a-vyvoj-2/pro-laiky  ">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj-2/pro-laiky" title="Veřejné rejstříky, registry a seznamy" class="vyzkum-a-vyvoj-2/pro-laiky">
+<span>Veřejné rejstříky, registry a seznamy</span>
+</a>
+</li>
+<li class=" vyzkum-a-vyvoj-2/akce  ">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj-2/akce" title="Ceny ministra ve VaVaI" class="vyzkum-a-vyvoj-2/akce">
+<span>Ceny ministra ve VaVaI</span>
+</a>
+</li>
+<li class=" vyzkum-a-vyvoj/ostatni  ">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj/ostatni" title="Ostatní" class="vyzkum-a-vyvoj/ostatni">
+<span>Ostatní</span>
+</a>
+</li>
+<li class=" vyzkum-a-vyvoj-2/odkazy last  o  ">
+<a href="http://www.msmt.cz/vyzkum-a-vyvoj-2/odkazy" title="Odkazy" class="vyzkum-a-vyvoj-2/odkazy">
+<span>Odkazy</span>
+</a>
+</li>
+</ul>
+</li>
+<li class=" mezinarodni-vztahy  submenu">
+<a href="http://www.msmt.cz/mezinarodni-vztahy" title="EU a zahraničí" class="mezinarodni-vztahy">
+<span>EU a zahraničí</span>
+</a>
+<ul class="level2">
+<li class=" mezinarodni-vztahy/erasmus first  ">
+<a href="http://www.msmt.cz/mezinarodni-vztahy/erasmus" title="Erasmus+" class="mezinarodni-vztahy/erasmus">
+<span>Erasmus+</span>
+</a>
+</li>
+<li class=" mezinarodni-vztahy/fondy-ehp  ">
+<a href="http://www.msmt.cz/mezinarodni-vztahy/fondy-ehp" title="Fondy EHP" class="mezinarodni-vztahy/fondy-ehp">
+<span>Fondy EHP</span>
+</a>
+</li>
+<li class=" mezinarodni-vztahy/stipendia-programy-a-projekty  ">
+<a href="http://www.msmt.cz/mezinarodni-vztahy/stipendia-programy-a-projekty" title="Studium v zahraničí" class="mezinarodni-vztahy/stipendia-programy-a-projekty">
+<span>Studium v zahraničí</span>
+</a>
+</li>
+<li class=" mezinarodni-vztahy/uznavani-kvalifikaci  ">
+<a href="http://www.msmt.cz/mezinarodni-vztahy/uznavani-kvalifikaci" title="Uznávání kvalifikací a vzdělání v EU" class="mezinarodni-vztahy/uznavani-kvalifikaci">
+<span>Uznávání kvalifikací a vzdělání v EU</span>
+</a>
+</li>
+<li class=" mezinarodni-vztahy/ostatni-2  ">
+<a href="http://www.msmt.cz/mezinarodni-vztahy/ostatni-2" title="EU" class="mezinarodni-vztahy/ostatni-2">
+<span>EU</span>
+</a>
+</li>
+<li class=" mezinarodni-vztahy/mezinarodni-organizace-re-oecd-osn-unesco  ">
+<a href="http://www.msmt.cz/mezinarodni-vztahy/mezinarodni-organizace-re-oecd-osn-unesco" title="Mezinárodní smlouvy, organizace a sankce" class="mezinarodni-vztahy/mezinarodni-organizace-re-oecd-osn-unesco">
+<span>Mezinárodní smlouvy, organizace a sankce</span>
+</a>
+</li>
+<li class=" mezinarodni-vztahy/mezinarodni-projekty  ">
+<a href="http://www.msmt.cz/mezinarodni-vztahy/mezinarodni-projekty" title="Mezinárodní projekty" class="mezinarodni-vztahy/mezinarodni-projekty">
+<span>Mezinárodní projekty</span>
+</a>
+</li>
+<li class=" mezinarodni-vztahy/jazykove-vzdelavani  ">
+<a href="http://www.msmt.cz/mezinarodni-vztahy/jazykove-vzdelavani" title="Jazykové vzdělávání" class="mezinarodni-vztahy/jazykove-vzdelavani">
+<span>Jazykové vzdělávání</span>
+</a>
+</li>
+<li class=" mezinarodni-vztahy/akce-aktuality-publikace-faq last  o  ">
+<a href="http://www.msmt.cz/mezinarodni-vztahy/akce-aktuality-publikace-faq" title="Aktuality a Publikace" class="mezinarodni-vztahy/akce-aktuality-publikace-faq">
+<span>Aktuality a Publikace</span>
+</a>
+</li>
+</ul>
+</li>
+<li class=" strukturalni-fondy-1  ">
+<a href="http://www.msmt.cz/strukturalni-fondy-1" title="Fondy EU" class="strukturalni-fondy-1">
+<span>Fondy EU</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="cl"></div>
+</div>
+<ul id="last_art">
+<li>
+<a class="zalozka" href="#" title="Marwel seznam">Marwel seznam</a>
+<div class="last_art_menu">
+<div id="b-68" class="br">
+<h2>Moje menu</h2>
+<div class="mymenuform">
+<form method="POST">
+Přidat stránku pod názvem:
+<input name="nameitem" id="nameitem" type="text" value="Přijímání na střední školy a konzervatoře" size="13" maxlength="100" />
+<input name="addmymenu" type="submit" value="přidat" />
+</form>
+</div>
+<script type="text/javascript">
+  var nameitem = document.getElementById('nameitem');
+  var title = document.title;
+  if (nameitem.value == '') {
+    nameitem.value = title;
+  }    
+</script>
+</div>
+<div id="b-55" class="br">
+<h3>Naposledy čtené články</h3>
+<ul class="dashboard-list">
+<li class="item">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/prijimani-na-stredni-skoly-a-konzervatore" title="Přijímání na střední školy a konzervatoře">Přijímání na střední školy a konzervatoře</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+<!-- PRIORITY 2015 -->
+<!-- Redaktorske menu -->
+<div class="social-btns">
+<a class="fb" href="https://www.facebook.com/msmtcr" target="_blank"></a>
+<a class="twt" href="https://twitter.com/msmtcr" target="_blank"></a>
+</div>
+<h3 class="hdn">Vyhledávání</h3>
+<div id="search" role="search">
+<form action="http://www.msmt.cz/search.php" id="searchform" >
+<div>
+<input type="hidden" name="s[sort]" value="date" />
+<label><input value="VYHLEDÁVÁNÍ" name="query" id="search-input" accesskey="4"
+onfocus="searchClear(this,  'VYHLEDÁVÁNÍ');"
+onblur="searchRestore(this, 'VYHLEDÁVÁNÍ');" /></label>
+<label><input type="submit" id="go_button" value="VYHLEDÁVÁNÍ" /></label>			      
+</div>
+</form>                    </div>
+<div id="lang_login_block">
+<div id="logged-user">
+<a id="usr_login_link" href="http://www.msmt.cz/user.php" title="Přihlášení uživatele" >Přihlášení</a>
+<span class="sepparator">&nbsp;</span>
+<a href="http://www.msmt.cz/register.php" title="Registrace">Registrace</a>
+<div id="user-login-form" class="nodsp">
+<span id="usr_login_close">x</span>
+<div id="b-45" class="bl">
+<form style="margin-top: 0px;" action="https://www.msmt.cz/user.php" method="post">
+<label for="uname">Uživatel: </label>
+<input type="text" name="uname" id="uname" size="12" value="" maxlength="50" />
+<hr class="cl" />
+<label for="pass">Heslo: </label>
+<input type="password" name="pass" id="pass" size="12" maxlength="32" />
+<hr class="cl" />
+<!-- <input type="checkbox" name="rememberme" value="On" class ="formButton" /><br /> //-->
+<input type="hidden" name="xoops_redirect" value="/vzdelavani/stredni-vzdelavani/prijimani-na-stredni-skoly-a-konzervatore" />
+<input type="hidden" name="op" value="login" />
+<input class="formbutton" type="submit" value="Přihlášení" />
+</form>
+<p><a href="http://www.msmt.cz/user.php#lost">Poslat heslo</a></p>
+</div>
+</div>
+<script type="text/javascript">
+                            /* <![CDATA[ */
+                            $('usr_login_link').observe('click', function(event){
+                              Event.stop(event);
+                              $('user-login-form').toggleClassName('nodsp');
+                            });
+                            $('usr_login_close').observe('click', function(event){
+                              $('user-login-form').addClassName('nodsp');
+                            });
+                            /* ]]> */
+                          </script>
+</div> 
+</div> 
+<div id="lang_block">          
+<h3 class="hdn">Přepínání jazyků</h3>
+<div id="b-21" class="bl">
+<div class="langselect">
+<strong class="hdn">Výběr jazyka</strong>
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/prijimani-na-stredni-skoly-a-konzervatore?lang=2">
+<img src="http://www.msmt.cz/themes/msmt2017/images/flags/english.gif" alt="english"  style="MozOpacity: .8;opacity: .8;filter:Alpha(opacity=80);" /><span>EN</span>
+</a>
+</div>
+</div>
+</div>
+</header>
+</div>
+<section class="page">
+<div class="innerwrap">  
+<div class="breadcrumb">
+<a href="http://www.msmt.cz" title="Zobrazit titulní stránku">Titulní stránka</a>
+<span>&frasl;</span>
+<a href="/vzdelavani/skolstvi-v-cr" title="Zpět na článek: Vzdělávání">Vzdělávání</a>     
+<span>&frasl;</span>
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani" title="Zpět na článek: Střední vzdělávání">Střední vzdělávání</a>     
+<span>&frasl;</span>
+<span title="Aktuální článek:"><em>Přijímání na střední školy a konzervatoře</em></span>
+</div>
+<div class="middle">
+<div id="content" role="main">                
+</div>
+</div><!-- /middle -->
+<div class="right" role="complementary">
+</div>
+</div><!-- /.innerwrap -->
+</section><!-- ./main -->
+<section class="page">
+<div class="innerwrap">
+<div class="middle" role="complementary">
+<div class="conin">
+<div class="main_content">
+<div id="article" class="">
+<h2>Přijímání na střední školy a konzervatoře</h2>
+<div class="image-perex">
+</div>  
+<div class="article-perex">      
+Právní úprava přijímacího řízení, tiskopisy přihlášek ke střednímu vzdělávání a další informace jsou uvedeny zde a
+dále na stránkách Centra pro zjišťování výsledků vzdělávání.
+<span class="cleaner">&nbsp;</span>
+<span class="cleaner">&nbsp;</span>      
+</div>
+<div class="article-content">
+<hr />
+<hr />
+<h3>
+<span class="dw_item dw_pdf">Informace k přijímacímu řízení ve školním roce 2018/2019 (pro přijetí pro školní rok
+2019/2020):</span>
+</h3>
+<p>
+<strong><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class=
+"dw_item dw_pdf"><span class="dw_item dw_pdf">Informace k přijímacímu řízení v roce 2018/2019 bude zveřejněna v lednu
+2019&nbsp;</span></span></span></span></span></strong>
+</p>
+<p>
+<span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class=
+"dw_item dw_pdf"><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class=
+"dw_item dw_pdf">&nbsp;</span></span></span></span></span></span></span></span>
+</p>
+<p>
+<span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class=
+"dw_item dw_pdf"><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class=
+"dw_item dw_pdf">Informace k přijímací zkoušce z ČJL pro osoby pobývající dlouhodobě v
+zahraničí&nbsp;</span></span></span></span></span></span></span></span>
+</p>
+<p>
+<span class="dw_item dw_pdf"><a href="/file/49141/">Informace_přijímací řízení osob podle § 20 odst 4
+ŠZ_2018-19.pdf</a></span>
+</p>
+<p>
+<span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class=
+"dw_item dw_pdf"><span class="dw_item dw_pdf">&nbsp;</span></span></span></span></span>
+</p>
+<p>
+<span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><span class=
+"dw_item dw_pdf"><span class="dw_item dw_pdf"><a href="/file/44310/">Informace k přijímacímu řízení do gymnázia se
+sportovní přípravou v prvním kole přijímacího řízení</a></span></span></span></span></span>
+</p>
+<p>
+&nbsp;
+</p>
+<h3>
+<a href="/file/44902/"><strong><span>Přijímací řízení ke střednímu vzdělávání – legislativa a další
+předpisy</span></strong>:</a>
+</h3>
+<p>
+<a href="/vzdelavani/stredni-vzdelavani/tiskopisy-prihlasek-ke-strednimu-vzdelavani-a-vzdelavani-v-1">Tiskopisy
+přihlášek ke střednímu vzdělávání a vzdělávání v konzervatoři&nbsp;- školní rok 2018/201</a>9
+</p>
+<p>
+&nbsp;<span class="mw_field"><span class="mw_field"><span class="mw_field"><span class="mw_field"><span class=
+"mw_field"><span class="mw_field"><span class="mw_field"><a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/informace-o-prijimacim-rizeni-ke-strednimu-vzdelavani-podle" title="Vyhláška o přijímacím řízení ke střednímu vzdělávání">Vyhláška o přijímacím řízení ke   střednímu vzdělávání</a></span></span></span></span></span></span></span>
+</p>
+<p>
+&nbsp;<span class="mw_field"><span class="mw_field"><span class="mw_field"><span class="mw_field"><a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/ustanoveni-o-prijimacim-rizeni-do-strednich-skol-ve-skolskem" title="Ustanovení o přijímacím řízení do středních škol ve školském zákoně (vybraná ustanovení)">Ustanovení o přijímacím řízení do středních škol ve školském zákoně (vybraná ustanovení)</a></span></span></span></span>
+</p>
+<p>
+&nbsp;
+</p>
+<h3>
+<span>Termíny konání jednotné přijímací zkoušky ve školním roce 2018/2019 (pro přijetí&nbsp;pro školní rok
+2019/2020):</span>
+</h3>
+<p>
+<span class="dw_item dw_pdf"><span class="dw_item dw_pdf"><a href="/file/48520/">Sdělení MŠMT, kterým se vyhlašují
+termíny jednotných přijímacích zkoušek pro školní rok 2018/2019</a></span></span>
+</p>
+<p>
+<span class="dw_item dw_pdf"><span><span class="dw_item dw_pdf">&nbsp;</span></span></span>
+</p>
+<p>
+<span class="dw_item dw_pdf"><span>&nbsp;</span></span>
+</p>
+<hr />
+<hr />
+<p>
+Další informace k přijímacímu řízení jsou publikovány na stránkách Centra pro zjišťování výsledků
+vzdělávání&nbsp;(<a href="http://www.cermat.cz">www.cermat.cz</a>)
+</p>
+<p>
+<strong>&nbsp;</strong>
+</p>
+<h5>
+<a href="/vzdelavani/stredni-vzdelavani/archiv"><strong>Archiv dokumentů školního roku 2016/2017 (bude
+aktualizováno)</strong></a>
+</h5>
+<div class="cleaner"></div>
+</div>
+<p class="article-footer">
+</p>
+<p class="to-top"><a href="#article" title="Nahoru"><span>Nahoru</span></a></p>
+</div>
+</div>
+</div>
+</div><!-- /.middle -->
+<div class="right" role="complementary">
+<div class="conin">
+<h2 class="hdn">Navigace v sekci</h2>
+<nav id="menu" role="navigation">
+<div id="b-5" class="br">
+<ul class="level1">
+<li class=" vzdelavani/stredni-vzdelavani/archiv-clanku first  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/archiv-clanku" title="Archiv článků" class="vzdelavani/stredni-vzdelavani/archiv-clanku">
+<span>Archiv článků</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/ramcove-vzdelavaci-programy  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/ramcove-vzdelavaci-programy" title="Rámcové vzdělávací programy" class="vzdelavani/stredni-vzdelavani/ramcove-vzdelavaci-programy">
+<span>Rámcové vzdělávací programy</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/jazykove-skoly-s-pravem-statni-jazykove-zkousky  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/jazykove-skoly-s-pravem-statni-jazykove-zkousky" title="Jazykové školy s právem státní jazykové zkoušky" class="vzdelavani/stredni-vzdelavani/jazykove-skoly-s-pravem-statni-jazykove-zkousky">
+<span>Jazykové školy s právem státní jazykové zkoušky</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/prijimani-na-stredni-skoly-a-konzervatore menu-active submenu">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/prijimani-na-stredni-skoly-a-konzervatore" title="Přijímání na střední školy a konzervatoře" class="vzdelavani/stredni-vzdelavani/prijimani-na-stredni-skoly-a-konzervatore">
+<span>Přijímání na střední školy a konzervatoře</span>
+</a>
+<ul class="level2">
+<li class=" vzdelavani/stredni-vzdelavani/informace-k-aplikaci-podpurnych-opatreni-pri-prijimacim first  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/informace-k-aplikaci-podpurnych-opatreni-pri-prijimacim" title="Informace k aplikaci podpůrných opatření při přijímacím řízení ve středních školách - listopad 2016" class="vzdelavani/stredni-vzdelavani/informace-k-aplikaci-podpurnych-opatreni-pri-prijimacim">
+<span>Informace k aplikaci podpůrných opatření při přijímacím řízení ve středních školách - listopad 2016</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/tiskopisy-prihlasek-ke-strednimu-vzdelavani-a-vzdelavani-v  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/tiskopisy-prihlasek-ke-strednimu-vzdelavani-a-vzdelavani-v" title="Tiskopisy přihlášek ke střednímu vzdělávání a vzdělávání v konzervatoři - školní rok 2016/2017" class="vzdelavani/stredni-vzdelavani/tiskopisy-prihlasek-ke-strednimu-vzdelavani-a-vzdelavani-v">
+<span>Tiskopisy přihlášek ke střednímu vzdělávání a vzdělávání v konzervatoři - školní rok 2016/2017</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/informace-k-prijimacimu-rizeni-na-stredni-skoly-pro-skolni last  o  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/informace-k-prijimacimu-rizeni-na-stredni-skoly-pro-skolni" title="Informace k přijímacímu řízení na střední školy pro školní rok 2016/2017" class="vzdelavani/stredni-vzdelavani/informace-k-prijimacimu-rizeni-na-stredni-skoly-pro-skolni">
+<span>Informace k přijímacímu řízení na střední školy pro školní rok 2016/2017</span>
+</a>
+</li>
+</ul>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/opatreni-na-podporu-odborneho-vzdelavani  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/opatreni-na-podporu-odborneho-vzdelavani" title="Opatření na podporu odborného vzdělávání" class="vzdelavani/stredni-vzdelavani/opatreni-na-podporu-odborneho-vzdelavani">
+<span>Opatření na podporu odborného vzdělávání</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/aktuality-5  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/aktuality-5" title="Aktuality" class="vzdelavani/stredni-vzdelavani/aktuality-5">
+<span>Aktuality</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/akce-2  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/akce-2" title="Akce" class="vzdelavani/stredni-vzdelavani/akce-2">
+<span>Akce</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/dokumenty-3  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/dokumenty-3" title="Dokumenty" class="vzdelavani/stredni-vzdelavani/dokumenty-3">
+<span>Dokumenty</span>
+</a>
+</li>
+<li class=" vzdelavani/stredni-vzdelavani/vzdelavani-v-konzervatori  ">
+<a href="http://www.msmt.cz/vzdelavani/stredni-vzdelavani/vzdelavani-v-konzervatori" title="Vzdělávání v konzervatoři" class="vzdelavani/stredni-vzdelavani/vzdelavani-v-konzervatori">
+<span>Vzdělávání v konzervatoři</span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>    
+</div><!-- /.right -->
+</div><!-- /.innerwrap -->
+</section><!-- /.main -->
+<div class="cl"></div>                    
+</section>
+<div class="cl"></div>
+<footer role="contentinfo">
+<h3 class="hdn">Patička</h3>
+<div class="foot-top">
+<div class="page">
+<div id="b-33" class="bl">
+<div class="article-content">
+<div class="pul-doleva">
+<h4>
+<img alt="small-logo.png" height="21" src="/uploads/download/small-logo.png" width="32" /> Ministerstvo školství,
+mládeže a tělovýchovy
+</h4>
+</div>
+<div class="pul-doprava">
+<p>
+<strong><span class="mw_field"><a href="http://www.msmt.cz/o-webu-msmt/sitemap" title="Mapa stránek">mapa stránek</a></span></strong>&nbsp;|&nbsp;<strong><span class="mw_field"><a href="http://www.msmt.cz/o-webu-msmt/nove-clanky-emailem" title="Nové články emailem">novinky e-mailem</a></span></strong>&nbsp;|&nbsp;<strong><span class="mw_field"><a href="http://www.msmt.cz/o-webu-msmt/prohlaseni-o-pristupnosti" title="Prohlášení o přístupnosti">prohlášení o přístupnosti</a></span></strong>&nbsp;|&nbsp;<strong><span class="mw_field"><a href="http://www.msmt.cz/o-webu-msmt/rss" title="RSS">RSS</a></span></strong>&nbsp;<img alt="" src="/uploads/download/rss.png" />
+</p>
+</div>
+<div class="cleaner"></div>
+<hr />
+<div class="pul-doleva">
+<h5>
+Rejstříky, databáze
+</h5>
+<div class="pul-doleva">
+<ul>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/vzdelavani/skolstvi-v-cr/statistika-skolstvi" title="Statistika školství">Statistika školství</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/vzdelavani/skolstvi-v-cr/statistika-skolstvi/pro-verejnost" title="Pro veřejnost">Pro veřejnost</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/vzdelavani/skolstvi-v-cr/statistika-skolstvi/o-skolske-statistice-1" title="O školské statistice">O školské statistice</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/vzdelavani/skolstvi-v-cr/statistika-skolstvi/sbery-statistickych-dat" title="Sběry statistických dat">Sběry statistických dat</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/vzdelavani/skolstvi-v-cr/statistika-skolstvi/statisticke-vystupy-a-analyzy" title="Statistické výstupy a         analýzy">Statistické výstupy a analýzy</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/vzdelavani/skolstvi-v-cr/statistika-skolstvi/ciselniky-a-klasifikace" title="Číselníky a klasifikace">Číselníky a klasifikace</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/vzdelavani/skolstvi-v-cr/statistika-skolstvi/adresare-skolskych-instituci" title="Adresáře školských         institucí">Adresáře školských institucí</a></span>
+</li>
+</ul>
+</div>
+<div class="pul-doprava">
+<ul>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/ministerstvo/odkazy" title="Důležité odkazy">Důležité odkazy</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/ministerstvo/odkazy/skolsky-rejstrik" title="Školský rejstřík">Školský rejstřík</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/ministerstvo/odkazy/vysoke-skoly" title="Vysoké školy">Vysoké školy</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/ministerstvo/odkazy/tematika-skolstvi" title="Tematika školství">Tematika školství</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/ministerstvo/odkazy/statni-sprava" title="Státní správa">Státní správa</a></span>
+</li>
+<li>
+<span class="mw_field"><a href="http://www.msmt.cz/ministerstvo/odkazy/neziskove-organizace" title="Neziskové organizace">Neziskové organizace</a></span>
+</li>
+<li>
+<a class="new-window" href="http://europa.eu/youreurope/" onclick="return !bar(this.href);" title=
+"[Odkaz do nového okna] ">PORTÁL YOUR EUROPE</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pul-doprava">
+<div class="pul-doprava">
+<h6>
+Kontakt pro veřejnost
+</h6>
+<p>
+Karmelitská 529/5<br />
+118 12 Praha 1<br />
+<strong>tel. ústředna:</strong><br />
++420 234 811 111
+</p>
+<h6>
+Podatelna pro veřejnost:
+</h6>
+<p>
+Po - Pá 7:30 - 15:30<br />
+<strong>Elektronická podatelna:</strong><br />
+<span class="eaddress">posta@msmt<img src="/modules/marwel/images/tecka.gif" alt="_" />cz</span><br />
+<strong>ID datové schránky:</strong> vidaawt
+</p>
+</div>
+<div class="pul-doleva">
+<h5>
+Úřední sdělení
+</h5>
+<ul>
+<li>
+<a href="/dokumenty">Dokumenty</a>
+</li>
+<li>
+<a href="/vzdelavani/skolstvi-v-cr/organizace-skolniho-roku">Organizace školního roku</a>
+</li>
+<li>
+<a href="/dokumenty-3/skolsky-zakon">Školský zákon</a>
+</li>
+<li>
+<a href=
+"/vzdelavani/vysoke-skolstvi/prehled-vysokych-skol?from=boxTopSearch&amp;utm_source=msmt&amp;utm_medium=link&amp;utm_campaign=blok%2Bnejcasteji%2Bhledate">
+Přehled vysokých škol</a>
+</li>
+<li>
+<a href=
+"/ministerstvo/volna-mista?from=boxTopSearch&amp;utm_source=msmt&amp;utm_medium=link&amp;utm_campaign=blok%2Bnejcasteji%2Bhledate">
+Volná místa</a>
+</li>
+<li>
+<a href="/vzdelavani/zakladni-skolstvi">Základní vzdělání</a>
+</li>
+<li>
+<a href="/vzdelavani/skolstvi-v-cr/statni-maturita">Státní maturita</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="cleaner"></div>
+</div>
+</div>
+<div class="cl"></div>
+</div>
+</div>
+<div class="foot-bottom">
+<div class="page">
+<div class="cl"></div>
+<div class="cl"></div>
+</div>
+</div>
+</footer>
+<div class="cl"></div>
+<div class="qcm-info">
+<div class="page">            
+<p class="fl-left">                    
+&copy;
+2013 &ndash; 2018
+&nbsp;MŠMT
+<div class="social-btns social-btns-footer">
+<a class="fb" href="https://www.facebook.com/msmtcr" target="_blank"></a>
+<a class="twt" href="https://twitter.com/msmtcr" target="_blank"></a>
+</div>
+</p>  
+<p class="fl-right">             
+<a href="http://www.qcm.cz" title="Tvorba webových stránek a aplikací">
+Tvorba webových stránek a aplikací
+<img src="http://www.msmt.cz/themes/msmt2017/images/qcm-logo.png" alt="Tvorba webových stránek a aplikací" title="Tvorba webových stránek a aplikací" width="40" height="16" />
+</a>
+</p>
+</div>
+</div>
+<div class="cl"></div>
+</section>
+</div>
+</div>
+<!-- JQUERY JS-->
+<script src="http://www.msmt.cz/themes/msmt2017/js/jquery/jquery-2.1.1.min.js"></script>
+<script src="http://www.msmt.cz/themes/msmt2017/js/jquery/slick.js"></script>
+<script src="http://www.msmt.cz/themes/msmt2017/js/jquery/use-slick.js"></script>
+<script src="http://www.msmt.cz/themes/msmt2017/js/magnific/magnific-popup.min.js"></script>
+<script src="http://www.msmt.cz/themes/msmt2017/js/magnific/use-magnific.min.js"></script>
+<script src="http://www.msmt.cz/themes/msmt2017/js/select2/select2.min.js"></script>
+<script src="http://www.msmt.cz/themes/msmt2017/js/jquery/app.js"></script>
+</body>
+</html>
+<!-- qcmmon state ok -->
