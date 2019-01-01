@@ -3,13 +3,13 @@
 /* :: :: 1.0 Import Fonts Hind Guntur */
 @import url("https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&amp;subset=latin-ext");
 /* :: 2.0 Import All CSS */
-@import url(scss/bootstrap.min.css);
-@import url(scss/owl.carousel.min.css);
-@import url(scss/animate.css);
-@import url(scss/magnific-popup.css);
-@import url(scss/font-awesome.min.css);
-@import url(scss/custom-icon.css);
-@import url(scss/classy-nav.min.css);
+@import url(css/bootstrap.min.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/animate.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+@import url(css/custom-icon.css);
+@import url(css/classy-nav.min.css);
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -34,7 +34,7 @@ h6 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 0;
   font-weight: 400;
   color: #ffffff;
@@ -46,28 +46,54 @@ h2 {
   }
 }
 
+h3 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+  h4 {
+    font-size: 16px;
+  }
+}
+
+h5 {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  h5 {
+    font-size: 15px;
+  }
+}
+
 p {
   color: #606060;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.3;
   font-weight: 400;
 }
 
-a,
-a:hover,
-a:focus {
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
+a, .icons {
   text-decoration: none;
-  outline: 0 solid transparent;
-  color: #59bddc;
+  /*  outline: 0 solid transparent;
+    @include trans-duration(500ms);*/
+  color: #3c8cb5;
   /*font-weight: 600;*/
-  font-size: 14px;
 }
 
 a:hover,
 a:focus {
-  color: #808080;
+  color: #4c9ca5;
 }
 
 ul,
@@ -215,7 +241,7 @@ img {
 }
 
 .section-heading h2 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 0;
   font-weight: 400;
   color: #ffffff;
@@ -228,7 +254,7 @@ img {
 }
 
 .section-heading h3 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -256,7 +282,7 @@ img {
 }
 
 .page-content h2 {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 16px;
 }
 
@@ -267,7 +293,7 @@ img {
 }
 
 .page-content h3 {
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 16px;
 }
 
@@ -278,7 +304,7 @@ img {
 }
 
 .page-content h4 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 14px;
 }
 
@@ -333,7 +359,7 @@ img {
 
 /* Menu */
 .breakpoint-off .classynav ul li .dropdown {
-  width: 240px;
+  width: 300px;
 }
 
 /* Preloader */
@@ -601,10 +627,12 @@ img {
 .header-area .academy-main-menu .classy-navbar .classynav ul li a {
   font-weight: 400;
   text-transform: uppercase;
+  font-size: 12px;
 }
 
 .header-area .academy-main-menu .classy-navbar .classynav ul li a:hover, .header-area .academy-main-menu .classy-navbar .classynav ul li a:focus {
   color: #a8a8a8;
+  font-size: 12px;
 }
 
 .header-area .academy-main-menu .classynav {
@@ -869,6 +897,11 @@ img {
   padding: 40px 15px;
   -webkit-transform: translateY(-16, 66%);
   transform: translateY(-16, 66%);
+}
+
+.top-features-area .features-content a:hover, .top-features-area .features-content a:focus {
+  /*text-decoration: none;*/
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .top-features-area .features-content .single-top-features {
@@ -1477,8 +1510,9 @@ img {
 }
 
 .single-blog-post {
-  background-color: #fafafa;
-  padding: 30px;
+  /*background-color: #fafafa;*/
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
 .single-blog-post .post-title {
@@ -1489,7 +1523,7 @@ img {
 }
 
 .single-blog-post .post-title:hover, .single-blog-post .post-title:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .single-blog-post .featured-post-title {
@@ -1500,7 +1534,7 @@ img {
 }
 
 .single-blog-post .featured-post-title:hover, .single-blog-post .featured-post-title:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .single-blog-post .post-meta {
@@ -1515,7 +1549,7 @@ img {
 
 .single-blog-post .post-meta p a {
   font-size: 14px;
-  color: #a8a8a8;
+  color: #3c8cb5;
   font-weight: 300;
 }
 
@@ -1605,7 +1639,7 @@ img {
 }
 
 .blog-post-categories ul li a:hover, .blog-post-categories ul li a:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .blog-post-categories .active a {
@@ -1617,7 +1651,7 @@ img {
 }
 
 .blog-post-categories .active a:hover, .blog-post-categories .active a:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .blog-post-tags {
@@ -1647,11 +1681,11 @@ img {
 }
 
 .blog-post-tags ul li a:hover, .blog-post-tags ul li a:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .blog-post-tags .active a {
-  color: #59bddc;
+  color: #3c8cb5;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -1659,7 +1693,7 @@ img {
 }
 
 .blog-post-tags .active a:hover, .blog-post-tags .active a:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .latest-blog-posts {
@@ -1693,7 +1727,7 @@ img {
 }
 
 .latest-blog-posts .latest-blog-post-content .post-title h6:hover, .latest-blog-posts .latest-blog-post-content .post-title h6:focus {
-  color: #a8a8a8;
+  color: #4c9ca5;
 }
 
 .latest-blog-posts .latest-blog-post-content .post-date {
@@ -1750,7 +1784,7 @@ img {
 }
 
 .contact-content .contact-social-info a {
-  color: #a8a8a8;
+  color: #3c8cb5;
   display: inline-block;
   margin-right: 30px;
 }
@@ -1758,7 +1792,7 @@ img {
 .contact-content .contact-icon i {
   padding-top: 5px;
   display: inline-block;
-  color: #a8a8a8;
+  color: #3c8cb5;
 }
 
 .contact-content .contact-form-area {
@@ -2034,12 +2068,32 @@ img {
   }
 }
 
+.alert-light {
+  padding: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.alert-light a {
+  color: white;
+}
+
+.alert-light .btn-secondary {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 /* Obory - úvodní menu */
 .obor-menu {
   padding: 1rem !important;
   margin-bottom: 0 !important;
   border-right: none !important;
   border-bottom: none !important;
+}
+
+.obor-menu a:hover,
+.obor-menu a:focus {
+  color: #ddd;
+  text-decoration: none;
 }
 
 /* Barvy pozadí - obory */
@@ -2069,5 +2123,9 @@ img {
 
 .bg-heading {
   background-color: #808080;
+}
+
+.bg-transparent-50 {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 /*# sourceMappingURL=style.css.map */

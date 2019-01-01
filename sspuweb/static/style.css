@@ -359,7 +359,7 @@ img {
 
 /* Menu */
 .breakpoint-off .classynav ul li .dropdown {
-  width: 240px;
+  width: 300px;
 }
 
 /* Preloader */
@@ -627,10 +627,12 @@ img {
 .header-area .academy-main-menu .classy-navbar .classynav ul li a {
   font-weight: 400;
   text-transform: uppercase;
+  font-size: 12px;
 }
 
 .header-area .academy-main-menu .classy-navbar .classynav ul li a:hover, .header-area .academy-main-menu .classy-navbar .classynav ul li a:focus {
   color: #a8a8a8;
+  font-size: 12px;
 }
 
 .header-area .academy-main-menu .classynav {
