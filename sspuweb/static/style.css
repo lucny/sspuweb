@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* [Master Stylesheet v1.0] */
 /* :: :: 1.0 Import Fonts Hind Guntur */
-@import url("https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&amp;subset=latin-ext");
-/* :: 2.0 Import All CSS */
+/* @import url('https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&amp;subset=latin-ext'); */
+/* In type partial */
 @import url(css/bootstrap.min.css);
 @import url(css/owl.carousel.min.css);
 @import url(css/animate.css);
@@ -10,6 +10,62 @@
 @import url(css/font-awesome.min.css);
 @import url(css/custom-icon.css);
 @import url(css/classy-nav.min.css);
+@font-face {
+  font-family: 'Hind Guntur';
+  src: url("fonts/Hind_Guntur/HindGuntur-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Hind_Guntur/HindGuntur-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-Bold.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-Bold.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-Bold.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-Bold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  /*    src: url('http://karenmenezes.com/font-amble/Amble-Regular-webfont.woff') format('woff');*/
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind Guntur';
+  src: url("fonts/Hind_Guntur/HindGuntur-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Hind_Guntur/HindGuntur-Light.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-Light.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-Light.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-Light.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-Light.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  /*    src: url('http://karenmenezes.com/font-amble/Amble-Italic-webfont.woff') format('woff');*/
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind Guntur';
+  src: url("fonts/Hind_Guntur/HindGuntur-SemiBold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Hind_Guntur/HindGuntur-SemiBold.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-SemiBold.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-SemiBold.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-SemiBold.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-SemiBold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  /*    src: url('http://karenmenezes.com/font-amble/Amble-Bold-webfont.woff') format('woff');*/
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind Guntur';
+  src: url("fonts/Hind_Guntur/HindGuntur-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Hind_Guntur/HindGuntur-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-Regular.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-Regular.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-Regular.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  /*    src: url('http://karenmenezes.com/font-amble/Amble-Bold-webfont.woff') format('woff');*/
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind Guntur';
+  src: url("fonts/Hind_Guntur/HindGuntur-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Hind_Guntur/HindGuntur-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-Medium.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-Medium.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-Medium.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-Medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  /*src: url('http://karenmenezes.com/font-amble/Amble-Bold-webfont.woff') format('woff');*/
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* :: 2.0 Import All CSS */
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
