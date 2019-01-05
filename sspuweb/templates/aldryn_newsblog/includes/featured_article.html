@@ -23,7 +23,7 @@
         </p>
     </div>
     <!-- Post Excerpt -->
-    <p>{% render_model article "lead_in" %}</p>
+    <div class="mt-3">{% render_model article "lead_in" %}</div>
     <!-- Read More btn -->
     <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}" class="mt-2">Přečtěte si
         více</a>

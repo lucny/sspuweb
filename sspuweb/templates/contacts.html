@@ -4,20 +4,16 @@
 {% block title %}{% page_attribute "page_title" %}{% endblock title %}
 
 {% block content %}
-<!-- ##### Breadcumb Area Start ##### -->
+<!-- ##### Breadcumb Area Start #####-->
     <div class="container p-0">
-            <div class="breadcumb-area bg-img" style="background-image: url({% static 'img/bg-img/breadcumb-sspu3.jpg' %});">
+            <div class="banner-area">
+                {% placeholder "map" %}
                 <div class="bradcumbContent bg-secondary">
-                    <h2>{% page_attribute "page_title" %}</h2>
+                    <h2 class="text-uppercase text-center">{% page_attribute "page_title" %}</h2>
                 </div>
             </div>
     </div>
 <!-- ##### Breadcumb Area End ##### -->
-
-<!-- ##### Google Maps ##### -->
-<div class="map-area m-0">
-    <div id="googleMap" style="background-image: url('/static/img/core-img/sspu-mapa.png')"></div>
-</div>
 
 <!-- ##### Contact Area Start ##### -->
 <section class="contact-area">
@@ -61,41 +57,12 @@
 {% placeholder "content" %}
 
 {% addtoblock "js" %}
-<!-- Google Maps
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM2FN6kROPWYyibdGHLGp9ol-PT7IIMlE"></script>
-<script src="{% static 'js/google-map/map-activ.js' %}"></script>
--->
+            <script>
+                    $("h2").on("click",function() {
+                        $(this).parents(".row").next(".row").toggle(500);
+                    })
 
-<!--
-<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
-<script type="text/javascript">Loader.load()</script>
-
-<script type="text/javascript">
-        var center = SMap.Coords.fromWGS84(14.41790, 50.12655);
-        var m = new SMap(JAK.gel("mapa"), center, 13);
-        m.addDefaultLayer(SMap.DEF_BASE).enable();
-</script>
-<script>
-    var lat            = 47.35387;
-    var lon            = 8.43609;
-    var zoom           = 18;
-
-    var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
-    var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
-    var position       = new OpenLayers.LonLat(lon, lat).transform( fromProjection, toProjection);
-
-    map = new OpenLayers.Map("Map");
-    var mapnik         = new OpenLayers.Layer.OSM();
-    map.addLayer(mapnik);
-
-    var markers = new OpenLayers.Layer.Markers( "Markers" );
-    map.addLayer(markers);
-    markers.addMarker(new OpenLayers.Marker(position));
-
-    map.setCenter(position, zoom);
-</script>
--->
+            </script>
 {% endaddtoblock %}
-
 {% endblock content %}
 

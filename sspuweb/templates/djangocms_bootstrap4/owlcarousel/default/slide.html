@@ -5,12 +5,11 @@
         <div class="row h-100 align-items-center">
             <div class="col-12">
                 <div class="hero-slides-content">
-                    <!--<h4 data-animation="fadeInUp" data-delay="100ms">All the courses you need</h4>-->
-                    <h2 data-animation="fadeInUp" data-delay="400ms">
+                    <div data-animation="fadeInUp" data-delay="400ms">
                         {% if instance.carousel_content %}
                             {{ instance.carousel_content }}
                         {% endif %}
-                    </h2>
+                    </div>
                    {% if link %}
                         <a href="{{ link }}"{% if instance.target %} target="{{ instance.target }}"{% endif %} class="btn btn-primary" data-animation="fadeInUp" data-delay="700ms">Podrobnosti</a>
                     {% endif %}

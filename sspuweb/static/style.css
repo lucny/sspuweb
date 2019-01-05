@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* [Master Stylesheet v1.0] */
 /* :: :: 1.0 Import Fonts Hind Guntur */
-/* @import url('https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&amp;subset=latin-ext'); */
 /* In type partial */
 @import url(css/bootstrap.min.css);
 @import url(css/owl.carousel.min.css);
@@ -16,7 +15,6 @@
   /* IE9 Compat Modes */
   src: url("fonts/Hind_Guntur/HindGuntur-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-Bold.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-Bold.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-Bold.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-Bold.svg#svgFontName") format("svg");
   /* Legacy iOS */
-  /*    src: url('http://karenmenezes.com/font-amble/Amble-Regular-webfont.woff') format('woff');*/
   font-weight: 700;
   font-style: normal;
 }
@@ -27,7 +25,6 @@
   /* IE9 Compat Modes */
   src: url("fonts/Hind_Guntur/HindGuntur-Light.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-Light.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-Light.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-Light.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-Light.svg#svgFontName") format("svg");
   /* Legacy iOS */
-  /*    src: url('http://karenmenezes.com/font-amble/Amble-Italic-webfont.woff') format('woff');*/
   font-weight: 300;
   font-style: normal;
 }
@@ -38,7 +35,6 @@
   /* IE9 Compat Modes */
   src: url("fonts/Hind_Guntur/HindGuntur-SemiBold.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-SemiBold.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-SemiBold.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-SemiBold.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-SemiBold.svg#svgFontName") format("svg");
   /* Legacy iOS */
-  /*    src: url('http://karenmenezes.com/font-amble/Amble-Bold-webfont.woff') format('woff');*/
   font-weight: 600;
   font-style: normal;
 }
@@ -49,7 +45,6 @@
   /* IE9 Compat Modes */
   src: url("fonts/Hind_Guntur/HindGuntur-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-Regular.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-Regular.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-Regular.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-Regular.svg#svgFontName") format("svg");
   /* Legacy iOS */
-  /*    src: url('http://karenmenezes.com/font-amble/Amble-Bold-webfont.woff') format('woff');*/
   font-weight: 400;
   font-style: normal;
 }
@@ -60,7 +55,6 @@
   /* IE9 Compat Modes */
   src: url("fonts/Hind_Guntur/HindGuntur-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/Hind_Guntur/HindGuntur-Medium.woff2") format("woff2"), url("fonts/Hind_Guntur/HindGuntur-Medium.woff") format("woff"), url("fonts/Hind_Guntur/HindGuntur-Medium.ttf") format("truetype"), url("fonts/Hind_Guntur/HindGuntur-Medium.svg#svgFontName") format("svg");
   /* Legacy iOS */
-  /*src: url('http://karenmenezes.com/font-amble/Amble-Bold-webfont.woff') format('woff');*/
   font-weight: 500;
   font-style: normal;
 }
@@ -1500,6 +1494,42 @@ img {
   }
 }
 
+.banner-area {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.banner-area .bradcumbContent {
+  width: 100%;
+  height: 60px;
+  text-transform: uppercase;
+  background: #aaa;
+  background: -webkit-gradient(linear, left top, right top, from(#666), to(#888));
+  background: linear-gradient(to right, #666, #888);
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-area .bradcumbContent {
+    width: 100%;
+  }
+}
+
+.banner-area .bradcumbContent h2 {
+  text-align: center;
+  padding-top: 0.6em;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-area .bradcumbContent h2 {
+    padding-top: 1em;
+    font-size: 20px;
+  }
+}
+
 /* About Us Content Area CSS */
 .about-slides {
   position: relative;
@@ -1810,16 +1840,16 @@ img {
 /* Contact Area CSS */
 .contact-content {
   background-color: #eef3f6;
-  padding: 50px 30px 10px 30px;
+  padding: 30px 30px 10px 30px;
   position: relative;
-  z-index: 15;
-  top: -200px;
-  margin-bottom: -150px;
+  z-index: 0;
+  top: 20px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 767px) {
   .contact-content {
-    padding: 50px 30px 10px 30px;
+    padding: 20px 30px 10px 30px;
   }
 }
 
