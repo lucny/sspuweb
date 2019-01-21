@@ -3,9 +3,9 @@
 NAME="sspuweb"                              #Name of the application (*)
 DJANGODIR=/var/www/sspuweb/sspuweb             # Django project directory (*)
 SOCKFILE=/var/www/sspuweb/run/gunicorn.sock        # we will communicate using this unix socket (*)
-USER=root                                        # the user to run as (*)
-GROUP=webdata                                     # the group to run as (*)
-NUM_WORKERS=1                                     # how many worker processes should Gunicorn spawn (*)
+USER=www-data                                        # the user to run as (*)
+GROUP=www-data                                     # the group to run as (*)
+NUM_WORKERS=4                                     # how many worker processes should Gunicorn spawn (*)
 DJANGO_SETTINGS_MODULE=sspuweb.settings             # which settings file should Django use (*)
 DJANGO_WSGI_MODULE=sspuweb.wsgi                     # WSGI module name (*)
 
