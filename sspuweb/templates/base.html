@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="{% static 'img/core-img/logo-skoly-male.png' %}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <!-- ##### Stylesheets ##### -->
     <link rel="stylesheet" href="{% static 'style.css' %}">
     {% render_block "css" %}
@@ -73,6 +74,53 @@
     <script src="{% static 'js/plugins/plugins.js' %}"></script>
     <!-- Active js -->
     <script src="{% static 'js/active.js' %}"></script>
+    <!-- Active js -->
+    <script src="{% static 'js/acctoolbar.min.js' %}"></script>   
+    <script>
+      // optional init
+        window.onload = function() {
+          window.micAccessTool = new MicAccessTool({
+            link: 'https://www.sspu-opava.cz/cs/dokumenty/prohlaseni-o-pristupnosti-webu',
+            contact: 'mailto:lucny@sspu-opava.cz',
+            buttonPosition: 'left', // default is 'left'
+            forceLang: 'cs-CS' // default is 'en' may be 'he-IL' or 'ru-RU'
+          });
+        }
+      </script>    
+      
+      <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+      <script>
+          window.cookieconsent.initialise({
+              container: document.getElementById("cookieconsent"),
+              palette: {
+                  popup: {
+                      background: "#1aa3ff"
+                  },
+                  button: {
+                      background: "#e0e0e0"
+                  },
+              },
+              revokable: true,
+              onStatusChange: function (status) {
+                  console.log(this.hasConsented() ?
+                      'enable cookies' : 'disable cookies');
+              },
+              "position": "bottom-right",
+              "theme": "classic",
+              "domain": "https://www.sspu-opava.cz/",
+              "secure": true,
+              "content": {
+                  "header": 'Na této stránce jsou používány cookies!',
+                  "message": 'Tento web používá k analýze návštěvnosti tzv. cookies společnosti Google. Cookies můžete ve svém prohlížeči vypnout. ',
+                  "dismiss": 'Souhlasím',
+                  "link": 'viz Ochrana osobních údajů',
+                  "href": 'https://www.sspu-opava.cz/cs/dokumenty/ochrana-osobnich-udaju/',
+                  "close": '&#x274c;',
+                  "policy": 'Cookie Policy',
+                  "target": '_blank',
+              }
+          });
+      </script>      
     {% render_block "js" %}
 </body>
 </html>
